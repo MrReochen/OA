@@ -1,2 +1,17 @@
 /* CSS Document */
 
+
+#top {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+
+
+#search {
+	border-width: 0px;
+	position: absolute;
+	left: 975px;
+	top: 87px; 
+}

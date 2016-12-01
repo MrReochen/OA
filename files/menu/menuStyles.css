@@ -1,3 +1,11 @@
+@font-face{
+	font-family: "汉仪旗黑-35S";
+	src: url(../../resources/fonts/hyqh35S.ttf)
+}
+@font-face{
+	font-family: "Avenir 45 Book";
+	src: url(../../resources/fonts/Avenir-Book.otf)
+}
 #overlay{
 	position: absolute;
 	left: 0px;
@@ -163,4 +171,13 @@
 	position: absolute;
 	left: 69px;
 	top: 1606px;
+}
+
+#menuButton {
+	border-width: 0px;
+	position: absolute;
+	left: 42px;
+	top: 94px;
+	width: 60px;
+	height: 49px;
 }
