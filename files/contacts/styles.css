@@ -1,5 +1,12 @@
 /* CSS Document */
-
+@font-face{
+	font-family: "汉仪旗黑-35S";
+	src: url(../../resources/fonts/hyqh35S.ttf)
+}
+@font-face{
+	font-family: "Avenir 45 Book";
+	src: url(../../resources/fonts/Avenir-Book.otf)
+}
 
 #top {
 	position: absolute;
@@ -14,4 +21,45 @@
 	position: absolute;
 	left: 975px;
 	top: 87px; 
+}
+
+.table-container {
+	position: absolute;
+	top: 547px;
+	left: 0px;
+	width: 1080px;
+	height:1373px;
+	overflow-y: scroll;
+	margin: 0px;
+	padding: 0px;
+}
+.table-container::-webkit-scrollbar{
+	-webkit-appearance: none;
+	width: 14px;
+	height: 14px;
+}
+.table-container::-webkit-scrollbar-thumb
+{
+border-radius: 8px;
+border: 3px solid #fff;
+background-color: rgba(0, 0, 0, .3);
+}
+
+#apartment1 {
+	width: 1080px;
+	height: 96px;
+	font-family: "汉仪旗黑-35S";
+	text-align: left;
+	color: #A3A3A5;
+	font-size: 48px;
+	background-color: #F8F8F8;
+	margin:0 0;
+	padding:0 0;
+}
+
+
+
+#contactsTable {
+	width: 1080px;
+	border-collapse: collapse;
 }
