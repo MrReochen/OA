@@ -3,5 +3,38 @@ $(document).ready(function(){
 	"use strict";
 	var menuOpen=false;
 	$("#overlay").hide();
-	
+	$("#menuButton").click(function(){
+		$("#overlay").fadeIn("slow");
+		$("#layer").animate({left:"0px"},"slow");
+		menuOpen=true;
+	});
+	$("#x").click(function(){
+		$("#layer").animate({left:"-835px"},"slow");
+		$("#overlay").fadeOut("slow");
+		menuOpen=false;
+	});
+	$("#homePage").click(function(){
+		window.location.href="home.html";
+	});
+	$("#contactsPage").click(function(){
+		window.location.href="contacts.html";
+	});
+	$("#newsPage").click(function(){
+		window.location.href="news.html";
+	});
+	$("#calendarPage").click(function(){
+		window.location.href="calendar.html";
+	});
+	$("#conferencePage").click(function(){
+		window.location.href="conference.html";
+	});
+	$("#officePage").click(function(){
+		window.location.href="office.html";
+	});
+	$("#selfPage").click(function(){
+		window.location.href="self.html";
+	});
+	$("#logoutPage").click(function(){
+		window.location.href="login.html";
+	});
 });
