@@ -30,8 +30,6 @@
 	width: 1080px;
 	height:1373px;
 	overflow-y: scroll;
-	margin: 0px;
-	padding: 0px;
 }
 .table-container::-webkit-scrollbar{
 	-webkit-appearance: none;
