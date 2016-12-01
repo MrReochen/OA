@@ -1,0 +1,166 @@
+#overlay{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+#layer{
+	border-width: 0px;
+	width: 835px;
+	position: absolute;
+	top: 0px;
+	left: -835px;
+}
+
+#menuBackground{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+#x{
+	position: absolute;
+	left: 42px;
+	top: 94px;
+}
+
+#selectedPage{
+	height: 192px;
+	width: 835px;
+	position: absolute;
+	top: 196px;
+	left: 0px;
+}
+
+
+
+#menuDivider1{
+	position: absolute;
+	top: 192px;
+}
+
+#label{
+	position: absolute;
+	left: 661px;
+	top: 245px;
+	width: 88px;
+	height: 87px;
+}
+
+#labelText{
+	position: relative;
+	height: 87px;
+	line-height: 87px;
+	text-align: center;
+	vertical-align: middle;
+	font-family: "Avenir 45 Book";
+	font-size: 37.4px;
+	color: white;
+}
+#labelBackground{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+#homePage{
+	font-family: "汉仪旗黑-35S";
+	font-size: 52px;
+	position: absolute;
+	left: 69px;
+	top: 262px;
+}
+
+#menuDivider2{
+	position: absolute;
+	top: 384px;
+}
+
+#menuDivider3{
+	position: absolute;
+	top: 576px;
+}
+
+#menuDivider4{
+	position: absolute;
+	top: 768px;
+}
+
+#menuDivider5{
+	position: absolute;
+	top: 960px;
+}
+
+#menuDivider6{
+	position: absolute;
+	top: 1152px;
+}
+
+#menuDivider7{
+	position: absolute;
+	top: 1344px;
+}
+
+#menuDivider8{
+	position: absolute;
+	top: 1536px;
+}
+
+#menuDivider9{
+	position: absolute;
+	top: 1728px;
+}
+#contactsPage {
+	font-family: "汉仪旗黑-35S";
+	font-size: 52px;
+	position: absolute;
+	left: 69px;
+	top: 454px;
+}
+
+#newsPage {
+	font-family: "汉仪旗黑-35S";
+	font-size: 52px;
+	position: absolute;
+	left: 69px;
+	top: 646px;
+}
+
+#calendarPage {
+	font-family: "汉仪旗黑-35S";
+	font-size: 52px;
+	position: absolute;
+	left: 69px;
+	top: 838px;
+}
+
+#conferencePage {
+	font-family: "汉仪旗黑-35S";
+	font-size: 52px;
+	position: absolute;
+	left: 69px;
+	top: 1030px;
+}
+
+#officePage {
+	font-family: "汉仪旗黑-35S";
+	font-size: 52px;
+	position: absolute;
+	left: 69px;
+	top: 1222px;
+}
+
+#selfPage {
+	font-family: "汉仪旗黑-35S";
+	font-size: 52px;
+	position: absolute;
+	left: 69px;
+	top: 1414px;
+}
+
+#logoutPage {
+	font-family: "汉仪旗黑-35S";
+	font-size: 52px;
+	position: absolute;
+	left: 69px;
+	top: 1606px;
+}

@@ -1,0 +1,50 @@
+body {
+  margin:0px;
+  background-image:none;
+  position:static;
+  left:auto;
+  width:1080px;
+  margin-left:0;
+  margin-right:0;
+  text-align:left;
+}
+#loginbutton{
+	border-width:0px;
+  position:absolute;
+  left:0px;
+  top:1580px;
+  width:1080px;
+  height:174px;
+}
+#background {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:1080px;
+  height:1920px;
+}
+#mima{
+  border-width:0px;
+  position:absolute;
+  left:180px;
+  top:1220px;
+  width:500px;
+  height:70px;
+  font-size:50px; 
+  color:#ffffff;
+  background-color:transparent;
+}
+#yonghuming{
+  border-width:0px;
+  position:absolute;
+  left:180px;
+  top:1050px;
+  width:500px;
+  height:70px;
+  letter-spacing:0px;
+  font-family:arial; 
+  font-size:50px; 
+  color:#ffffff;
+  background-color:transparent;
+}
