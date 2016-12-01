@@ -1,0 +1,64 @@
+/* CSS Document */
+@font-face{
+	font-family: "汉仪旗黑-35S";
+	src: url(../../resources/fonts/hyqh35S.ttf)
+}
+@font-face{
+	font-family: "Avenir 45 Book";
+	src: url(../../resources/fonts/Avenir-Book.otf)
+}
+
+#pic1{
+	top:0px;
+	left:0px;
+	position:absolute;
+	}
+	
+#pic2{
+	top:540px;
+	left:0px;
+	position:absolute;
+	}
+
+#pic3{
+	top:79px;
+	left:908px;
+	position:absolute;
+	}
+
+#pic4{
+	left:0px;
+	top:58px;
+	position:absolute;
+	}
+
+#pic5{
+	left:0px;
+	top:711px;
+	position:absolute;
+	}
+
+#word1 {
+	font-family: "汉仪旗黑-35S";
+	text-align: left;
+	color: white;
+	font-size: 100.67px;
+	position: absolute;
+	left: 150px;
+	top: 150px;
+}
+
+#word2 {
+	font-family: "汉仪旗黑-35S";
+	color: #1d1d26;
+	text-align: left;
+	line-height: 90px;
+	font-size: 40.27px;
+	position: absolute;
+	left: 73px;
+	
+}
+#sub1 {
+	position: absolute;
+	top: 540px;
+}
