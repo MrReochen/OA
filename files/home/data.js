@@ -1,6 +1,7 @@
  $(document).ready(function(){
 	"use strict";
 	var addState=false;
+	$("#selectedPage").css("top","196px");
 	$("#selected1").hide();
 	$("#selected3").hide();
 	$("#selected4").hide();
