@@ -1,2 +1,92 @@
 /* CSS Document */
+@font-face{
+	font-family: "汉仪旗黑-35S";
+	src: url(../../resources/fonts/hyqh35S.ttf)
+}
+@font-face{
+	font-family: "Avenir 45 Book";
+	src: url(../../resources/fonts/Avenir-Book.otf)
+}
 
+@font-face{
+	font-family: "Avenir";
+	src: url(../../resources/fonts/Avenir.ttc)
+}
+
+#topBackground {
+	border-width: 0px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+#search {
+	border-width: 0px;
+	position: absolute;
+	left: 975px;
+	top: 87px; 
+}
+
+#menu {
+	position:absolute; 
+	left: 0px;
+	top: 0px;
+	z-index:99999;
+}
+
+.swiper-container {
+	border-width: 0px;
+	position: absolute;
+	top: 633px;
+	left: 0px;
+	width: 1080px;
+	height: 1287px;
+}
+
+#month {
+	position: absolute;
+	left: 71px;
+	top: 242px;
+	font-family: "汉仪旗黑-35S";
+	font-size: 100.75px;
+	color: white;
+}
+
+#year {
+	font-family: Avenir Light;
+	font-size: 100.75px;
+	position: absolute;
+	left: 296px;
+	top: 226px;
+	color: white;
+	opacity: 0.7;
+}
+
+#dateNum {
+	position: relative;
+	left: 91px;
+	font-family: "Avenir 45 Book";
+	font-size: 100.8px;
+	color: #A3A3A5;
+}
+
+#dateInTable1 {
+	height: 161px;
+	background-color: #F8F8F8;
+}
+
+#calendarTable1 {
+	border-collapse: collapse;
+}
+
+.event {
+	font-family: "汉仪旗黑-35S";
+	color: black;
+	font-size: 43.18px;
+}
+
+.timeOfEvent {
+	font-family: "Avenir 45 Book";
+	font-size: 34.52px;
+	color: #A8A8AA;
+}
