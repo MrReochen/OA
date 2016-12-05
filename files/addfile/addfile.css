@@ -1,0 +1,200 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face{
+	font-family: "汉仪旗黑-35S";
+	src: url(../../resources/fonts/hyqh35S.ttf)
+}
+@font-face{
+	font-family: "Avenir 45 Book";
+	src: url(../../resources/fonts/Avenir-Book.otf)
+}
+
+#pic1{
+	top:0px;
+	left:0px;
+	position:absolute;
+	}
+	
+#pic2{
+	top:540px;
+	left:0px;
+	position:absolute;
+	}
+
+#pic3{
+	top:79px;
+	left:908px;
+	position:absolute;
+	}
+
+#pic4{
+	left:0px;
+	top:58px;
+	position:absolute;
+	}
+
+#pic5{
+	left:0px;
+	top:687px;
+	position:absolute;
+	}
+
+#pic6{
+	left:0px;
+	top:841px;
+	position:absolute;
+	}
+
+#pic7{
+	left:0px;
+	top:1005px;
+	position:absolute;
+	}
+
+#pic8{
+	left:0px;
+	top:1166px;
+	position:absolute;
+	}
+
+#pic9{
+	left:893px;
+	top:554px;
+	position:absolute;
+	}
+
+#pic10{
+	left:893px;
+	top:714px;
+	position:absolute;
+	}
+
+#pic11{
+	left:67px;
+	top:882px;
+	position:absolute;
+	}
+
+
+#pic12{
+	left:945px;
+	top:445px;
+	position:absolute;
+	}
+
+#pic13{
+	left:41px;
+	top:445px;
+	position:absolute;
+	}
+
+#pic14{
+	left:67px;
+	top:1045px;
+	position:absolute;
+	}
+
+#pic15{
+	left:500px;
+	top:752px;
+	position:absolute;
+	}
+
+#word1 {
+	font-family: "汉仪旗黑-35S";
+	text-align: left;
+	color: white;
+	font-size: 100.67px;
+	position: absolute;
+	left: 91px;
+	top: 138px;
+}
+
+#word2 {
+	font-family: "汉仪旗黑-35S";
+	text-align: left;
+	color: #1d1d26;
+	font-size: 40.27px;
+	position: absolute;
+	left: 73px;
+	top: 594px;
+}
+
+#word3 {
+	font-family: "汉仪旗黑-35S";
+	text-align: left;
+	color: #1d1d26;
+	font-size: 40.27px;
+	position: absolute;
+	left: 73px;
+	top: 764px;
+}
+
+#word4 {
+	font-family: "汉仪旗黑-35S";
+	text-align: left;
+	color: #1d1d26;
+	font-size: 40.27px;
+	position: absolute;
+	left: 186px;
+	top: 897px;
+}
+
+#word5 {
+	font-family: "汉仪旗黑-35S";
+	text-align: left;
+	color: #1d1d26;
+	font-size: 34.52px;
+	position: absolute;
+	left: 186px;
+	top: 958px;
+}
+
+#word6 {
+	font-family: "汉仪旗黑-35S";
+	text-align: left;
+	color: #1d1d26;
+	font-size: 40.27px;
+	position: absolute;
+	left: 186px;
+	top: 1064px;
+}
+
+#word8 {
+	font-family: "汉仪旗黑-35S";
+	text-align: left;
+	color: #1d1d26;
+	font-size: 34.52px;
+	position: absolute;
+	left: 186px;
+	top: 1124px;
+}
+
+#word9 {
+	font-family: "汉仪旗黑-35S";
+	text-align: left;
+	color: #1d1d26;
+	font-size: 34.52px;
+	position: absolute;
+	left: 843px;
+	top: 928px;
+}
+
+#word7 {
+	font-family: "汉仪旗黑-35S";
+	color:white;
+	font-size: 69px;
+	position: absolute;
+	left:405px;
+	top: 375px;
+}
+
+#word10 {
+	font-family: "汉仪旗黑-35S";
+	text-align: left;
+	color: #1d1d26;
+	font-size: 34.52px;
+	position: absolute;
+	left: 843px;
+	top: 1091px;
+}
