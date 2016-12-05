@@ -7,14 +7,21 @@
     <meta name="apple-mobile-web-app-capable" content="yes"/>
     <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
     <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/swiper-3.4.0.min.css" type="text/css" rel="stylesheet"/>
     <link href="files/menu/menuStyles.css" type="text/css" rel="stylesheet"/>
     <link href="files/news/styles.css" type="text/css" rel="stylesheet"/>
+    <!--<style>
+	/*其他颜色需更改css样式 007aff */
+		.swiper-button-next{background-image:url(images/news/next.png);position: absolute;top: 1747px;left: 0px;width: 1080px;height: 173px;}
+	</style>-->
    	<script src="resources/scripts/jquery.min.js"></script>
     <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
     <script src="resources/scripts/jquery.rotate.min.js"></script>
+    <script src="resources/scripts/swiper-3.4.0.jquery.min.js"></script>
     <script src="resources/scripts/bootstrap.min.js"></script>
     <script src="files/menu/menuData.js"></script>
     <script src="files/news/data.js"></script> 
+   
 </head>
 
 <body>
@@ -22,34 +29,37 @@
 	<div id="backGround">
 		<img src="images/news/background.png" alt="">
 	</div>
-	<!-- news-->
- 	<div>
- 		<div class="news">
-			<img src="images/news/NewsSheet.png" alt="" style="position: absolute;left: 0px;top: 0px;"/>
-			<img src="images/news/News1.png" alt="" style="position: absolute;left: 116px;top: 220px;"/>
+	<!--news slider-->
+	<div class="swiper-container">
+		<div class="swiper-wrapper">
+			<div class="swiper-slide">
+				<img src="images/news/NewsSheet.png" alt="" style="position: absolute;top: -143px;"/>
+				<img src="images/news/News1.png" alt="" style="position: absolute;left: 116px;top: 77px;"/>
+			</div>
+			<div class="swiper-slide">
+				<img src="images/news/NewsSheet.png" alt="" style="position: absolute;top: -143px;"/>
+				<img src="images/news/News2.png" alt="" style="position: absolute;left: 116px;top: 77px;"/>
+			</div>
+			<div class="swiper-slide">
+				<img src="images/news/NewsSheet.png" alt="" style="position: absolute;top: -143px;"/>
+				<img src="images/news/News1.png" alt="" style="position: absolute;left: 116px;top: 77px;"/>
+			</div>
 		</div>
-		<div class="news">
-			<img src="images/news/NewsSheet.png" alt="" style="position: absolute;left: 0px;top: 0px;"/>
-			<img src="images/news/News2.png" alt="" style="position: absolute;left: 116px;top: 220px;"/>
-		</div>
-		<div class="news">
-			<img src="images/news/NewsSheet.png" alt="" style="position: absolute;left: 0px;top: 0px;"/>
-			<img src="images/news/News1.png" alt="" style="position: absolute;left: 116px;top: 220px;"/>
-		</div>
- 	</div>
-  	<!--menuButton-->
+		<div class="swiper-pagination" style="position: absolute;top: 0px;"></div>
+	</div>
+	<!--nextpage button-->
 	<div>
-  		<img id="menuButton" src="images/public/menu_gray.png" alt=""/>
-  	</div>
-  	<!--next page-->
-  	<div>
-  		<img id="nextPage" src="images/news/next.png" alt=""/>
-  	</div>
-  	<!-- menu-->
-  	<div id="menu">
-  		<div id="overlay"><img src="images/menu/overlay.png" alt=""/></div>
-  		<div id="layer">
-  			<div id="menuBackground"><img src="images/menu/menubackground.png" alt=""/></div>
+		<img id="nextPage" src="images/news/next.png" alt=""/>
+	</div>
+	<!--menuButton-->
+	<div>
+		<img id="menuButton" src="images/public/menu_gray.png" alt=""/>
+	</div>
+	<!-- menu-->
+	<div id="menu">
+		<div id="overlay"><img src="images/menu/overlay.png" alt=""/></div>
+		<div id="layer">
+			<div id="menuBackground"><img src="images/menu/menubackground.png" alt=""/></div>
 			<div id="x"><img src="images/menu/x.png" alt=""/></div>
 			<img id="selectedPage" src="images/menu/row.png" alt=""/>
 			<img id="menuDivider1" src="images/menu/divider.png" alt=""/>
@@ -73,7 +83,7 @@
 			<img id="menuDivider8" src="images/menu/divider.png" alt=""/>
 			<p id="logoutPage" class="menuText">登出</p>
 			<img id="menuDivider9" src="images/menu/divider.png" alt=""/>
-  		</div>
-  	</div>
+		</div>
+	</div>
 </body>
 </html>

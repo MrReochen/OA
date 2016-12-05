@@ -6,9 +6,24 @@
 	top: 0px;
 }
 
+
+
+.swiper-container{
+	position: absolute;
+	left: 0px;
+	top: 143px;
+	width: 1080px;
+	height: 1604px;
+}
 #nextPage {
 	position: absolute;
 	top: 1747px;
 	left: 0px;
 }
 
+#menu {
+	position:absolute; 
+	left: 0px;
+	top: 0px;
+	z-index:99999;
+}
