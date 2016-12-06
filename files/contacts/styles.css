@@ -29,7 +29,8 @@
 	left: 0px;
 	height:1373px;
 	width: 100%;
-	overflow-x: scroll;
+	overflow-y: scroll;
+	overflow-x: hidden;
 
 }
 .table-container::-webkit-scrollbar
