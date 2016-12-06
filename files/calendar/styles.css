@@ -91,9 +91,7 @@
 	color: #A8A8AA;
 }
 
-
 .table-container {
-	height:1287px;
 	width: 100%;
 	overflow-x: scroll;
 }
@@ -144,4 +142,10 @@ background-color: rgba(0, 0, 0, .3);
 	position: absolute;
 	left: 60px;
 	top: 222px;
+}
+
+#pageSwitch {
+	position: absolute;
+	left: 461px;
+	top: 523px;
 }
