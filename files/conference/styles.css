@@ -1,0 +1,73 @@
+/* CSS Document */
+@font-face{
+	font-family: "汉仪旗黑-35S";
+	src: url(../../resources/fonts/hyqh35S.ttf)
+}
+
+@font-face{
+	font-family: "Avenir 45 Book";
+	src: url(../../resources/fonts/Avenir-Book.otf)
+}
+
+.table-container {
+	position: absolute;
+	top: 547px;
+	left: 0px;
+	height: 1373px;
+	width: 100%;
+	overflow-x: scroll;
+}
+
+.table-container::-webkit-scrollbar
+{
+-webkit-appearance: none;
+width: 14px;
+height: 14px;
+}
+
+.table-container::-webkit-scrollbar-thumb
+{
+border-radius: 8px;
+border: 3px solid #fff;
+background-color: rgba(0, 0, 0, .3);
+}
+
+#myConferenceButton {
+	border-width: 0px;
+	position: absolute;
+	left: 975px;
+	top: 87px; 
+}
+
+
+
+.type {
+	font-family: "汉仪旗黑-35S";
+	font-size: 43px;
+	color: #A3A3A5;
+}
+
+.conferenceName {
+	font-family: "汉仪旗黑-35S";
+	font-size: 43px;
+	color: black;
+}
+
+.timeInformation {
+	font-family: Avenir Light;
+	font-size: 35px;
+	color: #a3a3a5;
+}
+
+.conferenceClass {
+	width: 176px;
+	text-align: right;
+	font-family: "汉仪旗黑-35S";
+	font-size: 35px;
+	color: black;
+}
+
+#conferenceTable {
+	width: 1080px;
+	border-collapse: collapse;
+}
