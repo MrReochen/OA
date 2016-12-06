@@ -75,6 +75,7 @@
 }
 
 #calendarTable1 {
+	width: 1080px;
 	border-collapse: collapse;
 }
 
@@ -92,9 +93,24 @@
 
 
 .table-container {
-	overflow-y: auto;
+	height:1287px;
+	width: 100%;
+	overflow-x: scroll;
 }
 
+.table-container::-webkit-scrollbar
+{
+-webkit-appearance: none;
+width: 14px;
+height: 14px;
+}
+
+.table-container::-webkit-scrollbar-thumb
+{
+border-radius: 8px;
+border: 3px solid #fff;
+background-color: rgba(0, 0, 0, .3);
+}
 
 .dayOfWeek {
 	width: 136px;
@@ -115,7 +131,7 @@
 	color: #000000;
 	position: absolute;
 	top: 173px;
-	left: 0xp;
+	left: 0px;
 }
 
 .isToday {
