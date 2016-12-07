@@ -1,10 +1,91 @@
 <!doctype html>
 <html>
 <head>
-<meta charset="utf-8">
-<title>无标题文档</title>
+	<title>Self</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="files/menu/menuStyles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/self/styles.css" type="text/css" rel="stylesheet"/>
+   	<script src="resources/scripts/jquery.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/jquery.rotate.min.js"></script>
+    <script src="resources/scripts/bootstrap.min.js"></script>
+    <script src="files/menu/menuData.js"></script>
+    <script src="files/self/data.js"></script> 
 </head>
 
 <body>
+	<!-- top self potrait-->
+	<div>
+		<img src="images/self/selfMainTop.png" style="position: absolute;left: 0px;top: 0px;" alt=""/>
+	</div>
+	<!-- username-->
+	<div style="position: absolute;left: 73px;top: 473px;">
+		<a style="font-family: Avenir Light; font-size: 86.36px;color: white;">Nicole James</a>
+	</div>
+	<!-- content background-->
+	<div>
+		<img src="images/self/contentBack.png" style="position: absolute;left: 0px;top: 633px;" alt=""/>
+	</div>
+	<!-- main information-->
+	<div>
+		<a id="salary" style="color: #a8a8aa; font-family: 'Avenir 45 Book';font-size: 48px;position: absolute;left: 183px;top: 983px;">￥&nbsp;5500</a>
+		<a id="socialSecurity" style="color: #a8a8aa; font-family: 'Avenir 45 Book';font-size: 48px;position: absolute;left: 723px;top: 983px;">￥&nbsp;6000</a>
+		<a id="PAF" style="color: #a8a8aa; font-family: 'Avenir 45 Book';font-size: 48px;position: absolute;left: 161px;top: 1361px;">￥&nbsp;20000</a>
+		<a id="leave" style="color: black;font-family: 'Avenir 45 Book';font-size: 115.14px;position: absolute;left: 174px;top: 1607px;">1</a>
+		<a id="late" style="color: black;font-family: 'Avenir 45 Book';font-size: 115.14px;position: absolute;left: 509px;top: 1607px;">2</a>
+		<a id="leftEarly" style="color: black;font-family: 'Avenir 45 Book';font-size: 115.14px;position: absolute;left: 857px;top: 1607px;">0</a>
+	</div>
+	<!-- month switch-->
+	<div id="monthSwitch">
+		<a id="month" style="font-family: '汉仪旗黑-35S';font-size: 38px;color: black;position: absolute;left: 72px;top: 714px;">二月</a>
+		<a id="year" style="font-family: Avenir Light;font-size: 38px;color: #A8A8AA;position: absolute;left: 160px;top: 709px;">2015</a>
+		<img src="images/public/downArrow_gray.png" style="position: absolute;left: 260px;top: 724px;" alt=""/>
+	</div>
+	<!-- details-->
+	<div>
+		<img id="detailForSalary" src="images/self/more.png" style="position: absolute;left: 656px;top: 1290px;" alt=""/>
+	</div>
+	<!--  menu button-->
+  	<div>
+  		<img id="menuButton" src="images/public/Menu.png" alt=""/>
+  	</div>
+  	<!-- to file-->
+  	<div>
+  		<img src="images/self/fileButton.png" style="position: absolute;left: 876px;top: 555px;" alt=""/>
+  	</div>
+	<!-- menu-->
+  	<div id="menu">
+  		<div id="overlay"><img src="images/menu/overlay.png" alt=""/></div>
+  		<div id="layer">
+  			<div id="menuBackground"><img src="images/menu/menubackground.png" alt=""/></div>
+			<div id="x"><img src="images/menu/x.png" alt=""/></div>
+			<img id="selectedPage" src="images/menu/row.png" alt=""/>
+			<img id="menuDivider1" src="images/menu/divider.png" alt=""/>
+			<p id="homePage" class="menuText">主页</p>
+			<div id="label">
+				<img id="labelBackground" src="images/menu/label.png" alt=""/>
+				<p id="labelText">3</p>
+			</div>
+			<img id="menuDivider2" src="images/menu/divider.png" alt=""/>
+			<p id="contactsPage" class="menuText">企业通讯录</p>
+			<img id="menuDivider3" src="images/menu/divider.png" alt=""/>
+			<p id="newsPage" class="menuText">机场报</p>
+			<img id="menuDivider4" src="images/menu/divider.png" alt=""/>
+			<p id="calendarPage" class="menuText">日程</p>
+			<img id="menuDivider5" src="images/menu/divider.png" alt=""/>
+			<p id="conferencePage" class="menuText">会议</p>
+			<img id="menuDivider6" src="images/menu/divider.png" alt=""/>
+			<p id="officePage" class="menuText">公务处理</p>
+			<img id="menuDivider7" src="images/menu/divider.png" alt=""/>
+			<p id="selfPage" class="menuText">个人中心</p>
+			<img id="menuDivider8" src="images/menu/divider.png" alt=""/>
+			<p id="logoutPage" class="menuText">登出</p>
+			<img id="menuDivider9" src="images/menu/divider.png" alt=""/>
+  		</div>
+  	</div>
 </body>
 </html>
