@@ -1,10 +1,183 @@
 <!doctype html>
 <html>
 <head>
-<meta charset="utf-8">
-<title>无标题文档</title>
+	<title>Office</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="files/menu/menuStyles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/office/styles.css" type="text/css" rel="stylesheet"/>
+   	<script src="resources/scripts/jquery.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/bootstrap.min.js"></script>
+    <script src="files/menu/menuData.js"></script>
+    <script src="files/office/data.js"></script> 
 </head>
 
 <body>
+	<!-- top-->
+	<div>
+		<img id="top" src="images/office/top.png" alt=""/>
+	</div>
+	<!-- search-->
+	<div id="search">
+		<img src="images/public/search.png" alalt=""/>
+	</div>
+	<!-- office information content-->
+	<div class="table-container" style="width: 1080px;">
+		<table id="officeTable" cellspacing="0">
+			<body>
+				<tr height="158" width="1080" style="background-color: #F8F8F8;">
+					<td width="58"></td>
+					<td colspan="3"><a id="paperToDeal">未读公文</a></td>
+				</tr>
+				<tr width="1080" height="201" style="border:2px solid #F8F8F8;">
+					<td width="58"><img src="images/office/leftBar.png" alt=""/></td>
+					<td width="790">
+						<p class="paperToDealName">第一季度财务报销</p>
+						<p class="raiseToDeal">
+							<a>由&nbsp;</a>
+							<a class="raiseApartment">财务部</a>
+							<a>&nbsp;发起</a>
+						</p>
+						<p class="paperToDealNameTimeInformation">2015.2.8 23:30</p>
+					</td>
+					<td style="text-align: center;">
+						<img class="attention" style="margin-top: 28px;" src="images/office/attention.png" alt=""/>
+						<img class="alertImage" src="images/office/dealNowAlert.png" alt=""/>
+					</td>
+					<td></td>
+				</tr>
+				<tr width="1080" height="201" style="border:2px solid #F8F8F8;">
+					<td width="58"><img src="images/office/leftBar.png" alt=""/></td>
+					<td width="790">
+						<p class="paperToDealName">XXXXX的请假条</p>
+						<p class="raiseToDeal">
+							<a>由&nbsp;</a>
+							<a class="raiseApartment">财务部</a>
+							<a>&nbsp;发起</a>
+						</p>
+						<p class="paperToDealNameTimeInformation">2015.2.8 23:30</p>
+					</td>
+					<td style="text-align: center;">
+						<img class="attention" style="margin-top: 28px;" src="images/office/attention.png" alt=""/>
+						<img class="alertImage" src="images/office/dealNowAlert.png" alt=""/>
+					</td>
+					<td></td>
+				</tr>
+				<tr width="1080" height="201" style="border:2px solid #F8F8F8;">
+					<td width="58"><img src="images/office/leftBar.png" alt=""/></td>
+					<td width="790">
+						<p class="paperToDealName">XXXXXX合同</p>
+						<p class="raiseToDeal">
+							<a>由&nbsp;</a>
+							<a class="raiseApartment">财务部</a>
+							<a>&nbsp;发起</a>
+						</p>
+						<p class="paperToDealNameTimeInformation">2015.2.8 23:30</p>
+					</td>
+					<td style="text-align: center;">
+						<img class="attention" style="margin-top: 28px;" src="images/office/attention.png" alt=""/>
+						<img class="alertImage" src="images/office/dealNowAlert.png" alt=""/>
+					</td>
+					<td></td>
+				</tr>
+				<tr height="158" width="1080" style="background-color: #F8F8F8;">
+					<td width="58"></td>
+					<td colspan="3"><a id="paperDealed">一天前</a></td>
+				</tr>
+				<tr width="1080" height="201" style="border:2px solid #F8F8F8;">
+					<td width="58"><img src="images/office/leftBar2.png" alt=""/></td>
+					<td width="790">
+						<p class="paperToDealName">第一季度财务报销</p>
+						<p class="raiseToDeal">
+							<a>由&nbsp;</a>
+							<a class="raiseApartment">财务部</a>
+							<a>&nbsp;发起</a>
+						</p>
+						<p class="paperToDealNameTimeInformation">2015.2.6 23:30</p>
+					</td>
+					<td>
+						<p style="text-align: center;">
+							<a style="font-family: '汉仪旗黑-35S';font-size: 30px;color:#afafb0;">查看详情</a>
+						</p>	
+					</td>
+					<td></td>
+				</tr>
+				<tr width="1080" height="201" style="border:2px solid #F8F8F8;">
+					<td width="58"><img src="images/office/leftBar2.png" alt=""/></td>
+					<td width="790">
+						<p class="paperToDealName">XXXXX的请假条</p>
+						<p class="raiseToDeal">
+							<a>由&nbsp;</a>
+							<a class="raiseApartment">财务部</a>
+							<a>&nbsp;发起</a>
+						</p>
+						<p class="paperToDealNameTimeInformation">2015.2.6 23:30</p>
+					</td>
+					<td>
+						<p style="text-align: center;">
+							<a style="font-family: '汉仪旗黑-35S';font-size: 30px;color:#afafb0;">查看详情</a>
+						</p>	
+					</td>
+					<td></td>
+				</tr>
+				<tr width="1080" height="201" style="border:2px solid #F8F8F8;">
+					<td width="58"><img src="images/office/leftBar2.png" alt=""/></td>
+					<td width="790">
+						<p class="paperToDealName">XXXXXX合同</p>
+						<p class="raiseToDeal">
+							<a>由&nbsp;</a>
+							<a class="raiseApartment">财务部</a>
+							<a>&nbsp;发起</a>
+						</p>
+						<p class="paperToDealNameTimeInformation">2015.2.6 23:30</p>
+					</td>
+					<td>
+						<p style="text-align: center;">
+							<a style="font-family: '汉仪旗黑-35S';font-size: 30px;color:#afafb0;">查看详情</a>
+						</p>	
+					</td>
+					<td></td>
+				</tr>
+			</body>
+		</table>
+	</div>
+	<!--  menu button-->
+  	<div>
+  		<img id="menuButton" src="images/public/Menu.png" alt=""/>
+  	</div>
+  	<!-- menu-->
+  	<div id="menu">
+		<div id="overlay"><img src="images/menu/overlay.png" alt=""/></div>
+		<div id="layer">
+			<div id="menuBackground"><img src="images/menu/menubackground.png" alt=""/></div>
+			<div id="x"><img src="images/menu/x.png" alt=""/></div>
+			<img id="selectedPage" src="images/menu/row.png" alt=""/>
+			<img id="menuDivider1" src="images/menu/divider.png" alt=""/>
+			<p id="homePage" class="menuText">主页</p>
+			<div id="label">
+				<img id="labelBackground" src="images/menu/label.png" alt=""/>
+				<p id="labelText">3</p>
+			</div>
+			<img id="menuDivider2" src="images/menu/divider.png" alt=""/>
+			<p id="contactsPage" class="menuText">企业通讯录</p>
+			<img id="menuDivider3" src="images/menu/divider.png" alt=""/>
+			<p id="newsPage" class="menuText">机场报</p>
+			<img id="menuDivider4" src="images/menu/divider.png" alt=""/>
+			<p id="calendarPage" class="menuText">日程</p>
+			<img id="menuDivider5" src="images/menu/divider.png" alt=""/>
+			<p id="conferencePage" class="menuText">会议</p>
+			<img id="menuDivider6" src="images/menu/divider.png" alt=""/>
+			<p id="officePage" class="menuText">公务处理</p>
+			<img id="menuDivider7" src="images/menu/divider.png" alt=""/>
+			<p id="selfPage" class="menuText">个人中心</p>
+			<img id="menuDivider8" src="images/menu/divider.png" alt=""/>
+			<p id="logoutPage" class="menuText">登出</p>
+			<img id="menuDivider9" src="images/menu/divider.png" alt=""/>
+		</div>
+	</div>
 </body>
 </html>

@@ -1,0 +1,82 @@
+/* CSS Document */
+@font-face{
+	font-family: "汉仪旗黑-35S";
+	src: url(../../resources/fonts/hyqh35S.ttf)
+}
+@font-face{
+	font-family: "Avenir 45 Book";
+	src: url(../../resources/fonts/Avenir-Book.otf)
+}
+
+#search {
+	border-width: 0px;
+	position: absolute;
+	left: 975px;
+	top: 87px; 
+}
+
+#top {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+#menu {
+	position:absolute; 
+	left: 0px;
+	top: 0px;
+	z-index:99999;
+}
+
+.table-container {
+	position: absolute;
+	top: 547px;
+	left: 0px;
+	height: 1373px;
+	width: 100%;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+.table-container::-webkit-scrollbar
+{
+-webkit-appearance: none;
+width: 14px;
+height: 14px;
+}
+
+.table-container::-webkit-scrollbar-thumb
+{
+border-radius: 8px;
+border: 3px solid #fff;
+background-color: rgba(0, 0, 0, .3);
+}
+
+#paperToDeal {
+	font-family: "汉仪旗黑-35S";
+	font-size: 40px;
+	color: #AFAFB0;
+}
+
+.paperToDealName {
+	font-size: 43.2px;
+	font-family: "汉仪旗黑-35S";
+	color: black;
+}
+
+.raiseToDeal {
+	font-family: "汉仪旗黑-35S";
+	font-size: 30px;
+	color:#afafb0;
+}
+
+.paperToDealNameTimeInformation {
+	font-family: "汉仪旗黑-35S";
+	font-size: 30px;
+	color:#afafb0;
+}
+
+#paperDealed {
+	font-family: "汉仪旗黑-35S";
+	font-size: 40px;
+	color: #AFAFB0;
+}
