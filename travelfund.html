@@ -2,16 +2,15 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>差旅费报销</title>
-<link href="files/travel/reimbursement.css" type="text/css" rel="stylesheet"/>
+<title>差旅费申请</title>
+<link href="files/travelfund/data.css" type="text/css" rel="stylesheet"/>
 <script src="resources/scripts/jquery.min.js"></script>
 <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
 <script src="resources/scripts/bootstrap.min.js"></script>
-<script src="files/travel/travel.js"></script>
+<script src="files/travelfund/styles.js"></script>
 </head>
 
-<body>
-	<div id="background">
+<div id="background">
    		<img id="pic1" src="images/contract/con3-1.png" width="1080" height="540" alt=""/>
 <!--    	<img id="pic2" src="images/contract/con3-2.png" width="1080" height="1380" alt=""/>-->
 		<img id="pic3" src="images/contract/con3-3.png" width="138" height="130" alt=""/>
@@ -27,7 +26,7 @@
 		<table border="0">
 		<tr>
 			<td id="word10">选择财务类别</td>
-			<td id="word11">差旅费报销</td>
+			<td id="word11">差旅费申请</td>
 			<td id="pic5"><img src="images/contract/12-6.png"/></td>
 		</tr>
 		</table>
@@ -95,7 +94,7 @@
 				<tr height="159" style="border:2px solid #F8F8F8;">
 					<td width="71"></td>
 					<td width="243">
-						<p class="word9">报销主题</p>
+						<p class="word9">预算摘要</p>
 					</td>
 				  <td >
 						<form>
@@ -105,12 +104,12 @@
 				</tr>
 				<tr height="158" style="background-color: #F8F8F8;">
 					<td width="67"></td>
-					<td colspan="3"><a class="type">行程1</a></td>
+					<td colspan="3"><a class="type">费用明细</a></td>
 				</tr>
 				<tr height="159" style="border:2px solid #F8F8F8;">
 					<td width="71"></td>
 					<td width="243">
-						<p class="word9">出发地</p>
+						<p class="word9">出差地点</p>
 					</td>
 				    <td >
 						<form>
@@ -132,7 +131,7 @@
 				<tr height="159" style="border:2px solid #F8F8F8;">
 					<td width="71"></td>
 					<td width="243">
-						<p class="word9">交通方式</p>
+						<p class="word9">出差事由</p>
 					</td>
 				    <td >
 						<form>
@@ -143,7 +142,7 @@
 				<tr height="159" style="border:2px solid #F8F8F8;">
 					<td width="71"></td>
 					<td width="243">
-						<p class="word9">到达地</p>
+						<p class="word9">出差天数</p>
 					</td>
 				    <td >
 						<form>
@@ -154,29 +153,7 @@
 					<tr height="159" style="border:2px solid #F8F8F8;">
 					<td width="71"></td>
 					<td width="243">
-						<p class="word9">到达日期</p>
-					</td>
-				    <td >
-						<form>
-        					<input class="input1" type="text" >
-       					</form>
-					</td>
-				</tr>
-				<tr height="159" style="border:2px solid #F8F8F8;">
-					<td width="71"></td>
-					<td width="243">
-						<p class="word9">备注说明</p>
-					</td>
-				    <td >
-						<form>
-        					<input class="input1" type="text" >
-       					</form>
-					</td>
-				</tr>
-				<tr height="159" style="border:2px solid #F8F8F8;">
-					<td width="71"></td>
-					<td width="243">
-						<p class="word9">自购票价</p>
+						<p class="word9">预计票价</p>
 					</td>
 				    <td >
 						<form>
@@ -198,6 +175,17 @@
 				<tr height="159" style="border:2px solid #F8F8F8;">
 					<td width="71"></td>
 					<td width="243">
+						<p class="word9">差勤补助</p>
+					</td>
+				    <td >
+						<form>
+        					<input class="input1" type="text" >
+       					</form>
+					</td>
+				</tr>
+				<tr height="159" style="border:2px solid #F8F8F8;">
+					<td width="71"></td>
+					<td width="243">
 						<p class="word9">住勤补助</p>
 					</td>
 				    <td >
@@ -209,17 +197,18 @@
 				<tr height="159" style="border:2px solid #F8F8F8;">
 					<td width="71"></td>
 					<td width="243">
-						<p class="word9">添加行程</p>
+						<p class="word9">住勤补助</p>
 					</td>
-				    <td width="682">
-						<img class="pic" id="add" src="images/contract/con3-6.png"/>
+				    <td >
+						<form>
+        					<input class="input1" type="text" >
+       					</form>
 					</td>
 				</tr>
-	
 				<tr height="159" style="border:2px solid #F8F8F8;">
 					<td width="71"></td>
 					<td width="243">
-						<p class="word9">使用单位派车</p>
+						<p class="word9">需要单位派车</p>
 					</td>
 				    <td width="682">
 				    <table border="0">
@@ -232,10 +221,12 @@
 					</table>
 					</td>
 				</tr>
-				<tr height="158" style="background-color: #F8F8F8;">
-					<td width="67"></td>
-					<td class="type">总计</td>
-					<td >
+				<tr height="159" style="border:2px solid #F8F8F8;">
+					<td width="71"></td>
+					<td width="243">
+						<p class="word9">使用时间</p>
+					</td>
+				    <td >
 						<form>
         					<input class="input1" type="text" >
        					</form>
@@ -243,64 +234,24 @@
 				</tr>
 				<tr height="159" style="border:2px solid #F8F8F8;">
 					<td width="71"></td>
-					<td>
-						<p class="word9">票据快照</p>
+					<td width="243">
+						<p class="word9">使用行程</p>
 					</td>
-				    <td width="682">
-						<table border="0">
-					<tr>
-						<td class="word13">xxxx.pdf</td>
-						<td rowspan="2"><img class="pic" src="images/contract/pic.png" width="110" height="102" alt=""/></td>
-					</tr>
-					<tr>
-						<td class="word13">32KB</td>
-					</tr>			
-				</table>
+				    <td >
+						<form>
+        					<input class="input1" type="text" >
+       					</form>
 					</td>
 				</tr>
 				<tr height="159" style="border:2px solid #F8F8F8;">
 					<td width="71"></td>
-					<td></td>
-				    <td width="682">
-						<table border="0">
-					<tr>
-						<td class="word13">xxxx.jpg</td>
-						<td rowspan="2"><img class="pic" src="images/contract/pic.png" width="110" height="102" alt=""/></td>
-					</tr>
-					<tr>
-						<td class="word13">36KB</td>
-					</tr>			
-				</table>
+					<td width="243">
+						<p class="word9">使用人数</p>
 					</td>
-				</tr>
-				<tr height="159" style="border:2px solid #F8F8F8;">
-					<td width="71"></td>
-					<td></td>
-				    <td width="682">
-						<table border="0">
-					<tr>
-						<td class="word13">xxxx.pdf</td>
-						<td rowspan="2"><img class="pic" src="images/contract/pic.png" width="110" height="102" alt=""/></td>
-					</tr>
-					<tr>
-						<td class="word13">400KB</td>
-					</tr>			
-				</table>
-					</td>
-				</tr>
-				<tr height="159" style="border:2px solid #F8F8F8;">
-					<td width="71"></td>
-					<td></td>
-				    <td width="682">
-						<table border="0">
-					<tr>
-						<td class="word13">xxxx.pdf</td>
-						<td rowspan="2"><img class="pic" src="images/contract/pic.png" width="110" height="102" alt=""/></td>
-					</tr>
-					<tr>
-						<td class="word13">55KB</td>
-					</tr>			
-				</table>
+				    <td >
+						<form>
+        					<input class="input1" type="text" >
+       					</form>
 					</td>
 				</tr>
 				
@@ -308,5 +259,6 @@
 		</table>
 	</div>
 	
+<body>
 </body>
 </html>

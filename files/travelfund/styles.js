@@ -1,4 +1,5 @@
-// JavaScript Document
+/* Sass Document */
+
 $(document).ready(function(){
 	"use strict";
 	$("#menu").hide();
@@ -15,6 +16,9 @@ $(document).ready(function(){
 	});
 	$("#word2").click(function(){
 		window.location.href="applyforreimbursement.html";
+	});
+	$("#word3").click(function(){
+		window.location.href="travelfund.html";
 	});
 	$("#pic12").click(function(){
 		window.location.href="contract3.html";
@@ -35,18 +39,10 @@ $(document).ready(function(){
 		$("#box").hide();
 	});
 	$("#switch").click(function(){
-		/*if(document.getElementById("switch").src==="images/contract/switch.png")
-		{
-			document.getElementById("switch").src = "images/contract/switch2.png";	
-		}*/
 		$("#switch").toggle();
 		$("#switch1").toggle();
 	});
 	$("#switch1").click(function(){
-		/*if(document.getElementById("switch").src==="images/contract/switch.png")
-		{
-			document.getElementById("switch").src = "images/contract/switch2.png";	
-		}*/
 		$("#switch").toggle();
 		$("#switch1").toggle();
 	});
