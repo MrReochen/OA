@@ -14,6 +14,9 @@ $(document).ready(function(){
 	$("#word3").click(function(){
 		window.location.href="travelfund.html";
 	});
+	$("#word4").click(function(){
+		window.location.href="reception.html";
+	});
 	$("#pic12").click(function(){
 		window.location.href="contract3.html";
 	});
@@ -26,7 +29,7 @@ $(document).ready(function(){
 	$("#pic4").click(function(){
 		window.location.href="home.html";
 	});
-	$("#add").click(function(){
+	$(".pic").click(function(){
 		$("#box").show();
 	});
 	$("#box").click(function(){

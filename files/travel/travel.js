@@ -4,13 +4,7 @@ $(document).ready(function(){
 	$("#menu").hide();
 	$("#box").hide();
 	$("#switch").hide();
-	$("#pic5").click(function(){
-		 $("#menu").slideToggle();
-	});
-	$("#word12").click(function(){
-		 $("#menu").slideToggle();
-	});
-	$("#word13").click(function(){
+	$("#choose").click(function(){
 		 $("#menu").slideToggle();
 	});
 	$("#word2").click(function(){
