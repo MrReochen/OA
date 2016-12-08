@@ -1,0 +1,68 @@
+/* CSS Document */
+@font-face{
+	font-family: "汉仪旗黑-35S";
+	src: url(../../resources/fonts/hyqh35S.ttf)
+}
+
+@font-face{
+	font-family: "Avenir 45 Book";
+	src: url(../../resources/fonts/Avenir-Book.otf)
+}
+
+#backwardButton {
+	border-width: 0px;
+	position: absolute;
+	left: 42px;
+	top: 94px;
+}
+
+#avatar {
+	position: absolute;
+	left: 396px;
+	top: 269px;
+}
+
+
+.name {
+	position: absolute;
+	left: 0px;
+	top: 94px;
+	width: 1080px;
+	text-align: center;
+	font-family: "汉仪旗黑-35S";
+	font-size: 60px;
+	color:white;
+}
+.table-container {
+	position: absolute;
+	top: 633px;
+	left: 0px;
+	height:1287px;
+	width: 1080px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+.table-container::-webkit-scrollbar
+{
+-webkit-appearance: none;
+width: 14px;
+height: 14px;
+}
+
+
+.content {
+	color: black;
+	font-family: "Avenir 45 Book","汉仪旗黑-35S";
+	font-size: 40.3px;
+}
+
+.type {
+	color: #a8a8aa;
+	font-family: "汉仪旗黑-35S","Avenir 45 Book";
+	font-size: 40.3px;
+}
+
+#contactInformation {
+	width: 1080px;
+	border-collapse: collapse;
+}
