@@ -2,6 +2,9 @@
 $(document).ready(function(){
 	"use strict";
 	$("#selectedPage").css("top","772px");
+	$("#search").click(function(){
+		window.location.href="search.html?4";
+	});
 	var today=2;
 	var isToday=$(".isToday");
 	var haveEvents=$(".haveEvents");

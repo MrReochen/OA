@@ -1,0 +1,39 @@
+@font-face{
+	font-family: "汉仪旗黑-35S";
+	src: url(../../resources/fonts/hyqh35S.ttf)
+}
+
+@font-face{
+	font-family: "Avenir 45 Book";
+	src: url(../../resources/fonts/Avenir-Book.otf)
+}
+
+#backwardButton {
+	border-width: 0px;
+	position: absolute;
+	left: 42px;
+	top: 94px;
+}
+
+#searchType {
+	color: white;
+	font-family: "汉仪旗黑-35S";
+	font-size: 32px;
+}
+
+#searchContent {
+	border-width:0px;
+  	width:700px;
+  	height:60px;
+  	letter-spacing:0px;
+  	font-family: "汉仪旗黑-35S","Avenir 45 Book"; 
+  	font-size:50px; 
+  	color:#ffffff;
+  	background-color:transparent;
+}
+
+.typeName {
+	font-family: "汉仪旗黑-35S";
+	font-size: 32px;
+	color: white;
+}

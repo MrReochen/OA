@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+	<title>Search</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="files/search/styles.css" type="text/css" rel="stylesheet"/>
+   	<script src="resources/scripts/jquery.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/bootstrap.min.js"></script>
+    <script src="files/search/data.js"></script> 
+</head>
+
+<body>
+	<!-- top-->
+	<div style="border-width: 0px;position: absolute;left: 0px;top: 0px;">
+		<img src="images/search/top.png" alt=""/>
+	</div>
+	<!-- backward-->
+	<div>
+		<img id="backwardButton" src="images/public/backward.png" onclick="javascript: history.back();" alt=""/>
+	</div>
+	<!-- search title-->
+	<div style="width: 1000px; position: absolute;left: 139px;top: 86px;">
+		<a id="searchType">文档</a>
+		<img id="downward" src="images/search/littleDownwards.png" alt=""/>
+		<input id="searchContent" type="text">
+	</div>
+	<!-- search type picker-->
+	<div id="searchTypePicker" style="border-width: 0px; position: absolute;left: 153px;top:132px;">
+		<img src="images/search/searchTypeSwitch.png" alt=""/>
+		<p class="typeName" style="position: absolute;left: 61px;top: 68px;">文&nbsp;&nbsp;&nbsp;&nbsp;档</p>
+		<p class="typeName" style="position: absolute;left: 61px;top: 150px;">会&nbsp;&nbsp;&nbsp;&nbsp;议</p>
+		<p class="typeName" style="position: absolute;left: 61px;top: 232px;">通&nbsp;讯&nbsp;录</p>
+		<p class="typeName" style="position: absolute;left: 61px;top: 314px;">公&nbsp;&nbsp;&nbsp;&nbsp;务</p>
+		<p class="typeName" style="position: absolute;left: 61px;top: 396px;">日&nbsp;&nbsp;&nbsp;&nbsp;程</p>
+	</div>
+</body>
+</html>

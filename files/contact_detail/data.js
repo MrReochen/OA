@@ -15,7 +15,5 @@ $(document).ready(function(){
 		$("#switchOn").toggle();
 		specialFocus=true;
 	});
-	$("#backwardButton").click(function(){
-		window.location.href="contacts.html";
-	});
+	
 });
