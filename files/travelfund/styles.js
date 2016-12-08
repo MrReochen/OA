@@ -14,6 +14,21 @@ $(document).ready(function(){
 	$("#word3").click(function(){
 		window.location.href="travelfund.html";
 	});
+	$("#word4").click(function(){
+		window.location.href="reception.html";
+	});
+	$("#word5").click(function(){
+		window.location.href="training.html";
+	});
+	$("#word6").click(function(){
+		window.location.href="maintain.html";
+	});
+	$("#word8").click(function(){
+		window.location.href="oil-after.html";
+	});
+	$("#word9").click(function(){
+		window.location.href="oil.html";
+	});
 	$("#pic12").click(function(){
 		window.location.href="contract3.html";
 	});

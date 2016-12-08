@@ -4,6 +4,7 @@ $(document).ready(function(){
 	$("#menu").hide();
 	$("#box").hide();
 	$("#switch").hide();
+	$("#date").hide();
 	$("#choose").click(function(){
 		 $("#menu").slideToggle();
 	});
@@ -62,4 +63,7 @@ $(document).ready(function(){
 		$("#switch").toggle();
 		$("#switch1").toggle();
 	});
+	$("#number").change(function(){
+    	$("#date").show();
+  });
 });
