@@ -8,10 +8,10 @@ $(document).ready(function(){
 	$("#searchType").text(loadType);
 	$("#searchTypePicker").hide();
 	$("#searchType").click(function(){
-		$("#searchTypePicker").show();
+		$("#searchTypePicker").toggle();
 	});
 	$("#downward").click(function(){
-		$("#searchTypePicker").show();
+		$("#searchTypePicker").toggle();
 	});
 	var searchType=$(".typeName");
 	$(searchType[0]).click(function(){
@@ -39,4 +39,13 @@ $(document).ready(function(){
 		nowSearch="日程";
 		$("#searchTypePicker").hide();
 	});
+	$("#searchContent").change(function(){
+		var searchResult=$(".fileName");
+		var searchWords=$("#searchContent").val();
+		for(var i=0;i<searchResult.length;i++){
+			searchResult[i].innerHTML=searchResult[i].innerHTML.replace(searchWords,"<span style='color: blue;'>$&</span>");
+		}
+	});
+	/*var searchWords=$("#searchContent").text;
+	*/
 });

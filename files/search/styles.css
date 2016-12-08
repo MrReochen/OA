@@ -37,3 +37,38 @@
 	font-size: 32px;
 	color: white;
 }
+
+.table-container {
+	position: absolute;
+	top: 242px;
+	left: 0px;
+	height:1678px;
+	width: 1080px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+
+}
+.table-container::-webkit-scrollbar
+{
+	-webkit-appearance: none;
+	width: 14px;
+	height: 14px;
+}
+
+.table-container::-webkit-scrollbar-thumb
+{
+	border-radius: 8px;
+	border: 3px solid #fff;
+	background-color: rgba(0, 0, 0, .3);
+}
+
+
+.fileName {
+	font-family: "汉仪旗黑-35S","Avenir 45 Book";
+	font-size: 46px;
+	color: black;
+}
+
+#searchResults {
+	border-collapse: collapse;
+}
