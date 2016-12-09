@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+<head>
+	<title>AddCalendarEvent</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="files/addCalendarEvent/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/calendar.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/timepicki.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery.js"></script>
+    <script src="resources/scripts/jquery.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/bootstrap.min.js"></script>
+    <script src="files/addCalendarEvent/data.js"></script> 
+    <script src="resources/scripts/calendar.js"></script>
+    <script src="resources/scripts/timepicki.js"></script>
+    <style type="text/css">
+		a {
+			text-decoration: none;
+		}
+		ul, ol, li {
+			list-style: none;
+			padding: 0;
+			margin: 0;
+		}
+	</style>
+</head>
+
+<body>
+	<!-- top-->
+	<div style="position: absolute;left: 0px;top: 0px;">
+		<img src="images/addCalendarEvent/top.png" alt=""/>
+	</div>
+	<!-- closeButton-->
+	<div style="border-width: 0px;position: absolute;left: 42px;top: 94px;">
+		<img src="images/public/close_white.png" alt="" onClick="javascript: window.location.href='home.html';"/>
+	</div>
+	<!-- checkButton-->
+	<div style="border-width: 0px;position: absolute;left: 975px;top: 94px; ">
+		<img id="save" src="images/public/check_white.png" alt=""/>
+	</div>
+	<!-- add event-->
+	<div class="table-container">
+		<table id="addEvent">
+			<body>
+				<tr height="174" style="border:2px solid #F8F8F8;">
+					<td width="58"></td>
+					<td width="542">
+						<p style="font-family: '汉仪旗黑-35S';font-size: 40.32px;color: black;">事件日期</p>
+					</td>
+					<td width="406" align="right">
+						<input id="date" type="text" placeholder="选择日期"/>
+						<div id="dd"></div>
+					</td>
+					<td width="58"></td>
+				</tr>
+				<tr height="174" style="border:2px solid #F8F8F8;">
+					<td width="58"></td>
+					<td width="542">
+						<p style="font-family: '汉仪旗黑-35S';font-size: 40.32px;color: black;">事件时间</p>
+					</td>
+					<td width="406" align="right">
+						<input id="timeBegin" type="text" placeholder="开始时间"/>
+						<input id="timeEnd" type="text" placeholder="结束时间"/>
+					</td>
+					<td width="58"></td>
+				</tr>
+			</body>
+		</table>
+	</div>
+</body>
+</html>
