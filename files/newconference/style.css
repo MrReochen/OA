@@ -1,0 +1,124 @@
+/* CSS Document */
+@font-face{
+	font-family: "汉仪旗黑-35S";
+	src: url(../../resources/fonts/hyqh35S.ttf)
+}
+
+@font-face{
+	font-family: "Avenir 45 Book";
+	src: url(../../resources/fonts/Avenir-Book.otf)
+}
+
+#close {
+	position: absolute;
+	left: 47px;
+	top: 112px;
+}
+
+#check {
+	position: absolute;
+	left: 964px;
+	top: 112px;
+}
+
+.title {
+	font-family: "汉仪旗黑-35S";
+	font-size: 34.56px;
+	color: #1d1d26;
+	padding-left: 6px;
+	padding-top: 87px;
+}
+
+.item {
+	font-family: "汉仪旗黑-35S";
+	font-size: 40.32px;
+	color: #1d1d26;
+	padding-left: 4px;
+	padding-top: 31px;
+}
+
+.photo {
+	float: right;
+}
+
+#photo {
+	padding-top: 109px;
+}
+
+.all {
+	height: 1206px;
+	width: 100%;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+.all::-webkit-scrollbar
+{
+-webkit-appearance: none;
+width: 14px;
+height: 14px;
+}
+
+.all::-webkit-scrollbar-thumb
+{
+border-radius: 8px;
+border: 3px solid #fff;
+background-color: rgba(0, 0, 0, .3);
+}
+
+.input1 {
+	border-width:0px;
+  width:578px;
+  height:70px;
+  letter-spacing:0px;
+  font-family:"汉仪旗黑-35S"; 
+  font-size:40.27px; 
+  color:#1d1d26;
+  background-color:transparent;
+  text-align: left;
+  padding-left: 4px;
+  padding-top: 31px;
+}
+
+#file {
+	font-family: "汉仪旗黑-35S";
+	font-size: 40.32px;
+	color: #1d1d26;
+}
+
+#size {
+	font-family: "汉仪旗黑-35S";
+	font-size: 34.56px;
+	color: #1d1d26;
+}
+
+#right {
+	font-family: "汉仪旗黑-35S";
+	font-size: 34.56px;
+	color: #1d1d26;
+	text-align: right;
+	padding-top: 80px;
+}
+
+#date {
+	border:none;
+	width:280px;
+  	height:50px;
+ 	letter-spacing:0px;
+	background-color:transparent;
+	font-family:'Avenir 45 Book',"汉仪旗黑-35S";
+	font-size: 40.32px;
+	color: black;
+	text-align: left;
+}
+
+.addition {
+	float: right;
+}
+
+#pic {
+	left:500px;
+	top:752px;
+	position:absolute;
+	z-index: 3;
+}
