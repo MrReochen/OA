@@ -43,6 +43,4 @@ $(document).ready(function(){
             console.log('data:' + (data || 'None'));
         }*/
     });
-	$("#timeBegin").timepicki();
-	$("#timeEnd").timepicki();
 });
