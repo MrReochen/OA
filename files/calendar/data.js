@@ -8,7 +8,7 @@ $(document).ready(function(){
 	var today=2;
 	var isToday=$(".isToday");
 	var haveEvents=$(".haveEvents");
-	var activePage=1;
+	var activePage=0;
 	for(var i=0;i<7;i++)
 		{
 			if(i!==today-1){
@@ -18,12 +18,11 @@ $(document).ready(function(){
 	$("#pageSwitch").css("left","461px");
 	$(haveEvents[0]).hide();$(haveEvents[2]).hide();$(haveEvents[3]).hide();$(haveEvents[6]).hide();
 	var mySwiper=new Swiper('.swiper-container',{
-		loop:true,
 		onSlideChangeEnd: function(swiper){
 			activePage=swiper.activeIndex;
-			if(activePage===1){
+			if(activePage===0){
 				$("#pageSwitch").animate({left:"461px"});
-			}else if(activePage===2){
+			}else if(activePage===1){
 				$("#pageSwitch").animate({left:"283px"});
 			}else{
 				$("#pageSwitch").animate({left:"81px"});

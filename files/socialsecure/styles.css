@@ -1,0 +1,235 @@
+/* CSS Document */
+@font-face{
+	font-family: "汉仪旗黑-35S";
+	src: url(../../resources/fonts/hyqh35S.ttf)
+}
+
+@font-face{
+	font-family: "Avenir 45 Book";
+	src: url(../../resources/fonts/Avenir-Book.otf)
+}
+
+.swiper-container {
+	position: absolute;
+	top: 633px;
+	left: 0px;
+	width: 1080px;
+	height: 1287px;
+}
+
+.table-container {
+	width: 1080px;
+	height: 1287px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+.table-container::-webkit-scrollbar
+{
+-webkit-appearance: none;
+width: 14px;
+height: 14px;
+}
+
+.table-container::-webkit-scrollbar-thumb
+{
+border-radius: 8px;
+border: 3px solid #fff;
+background-color: rgba(0, 0, 0, .3);
+}
+
+.year1 {
+	font-family: "Avenir 45 Book";
+	font-size: 36px;
+	color: black;
+}
+.year2 {
+	font-family: "Avenir 45 Book";
+	font-size: 36px;
+	color: black;
+}
+.year3 {
+	font-family: "Avenir 45 Book";
+	font-size: 36px;
+	color: black;
+}
+.year4 {
+	font-family: "Avenir 45 Book";
+	font-size: 36px;
+	color: black;
+}
+.year5 {
+	font-family: "Avenir 45 Book";
+	font-size: 36px;
+	color: black;
+}
+.year6 {
+	font-family: "Avenir 45 Book";
+	font-size: 36px;
+	color: black;
+}
+.month1 {
+	font-family: "Avenir 45 Book";
+	font-size: 36px;
+	color: black;
+}
+.month2 {
+	font-family: "Avenir 45 Book";
+	font-size: 36px;
+	color: black;
+}
+.month3 {
+	font-family: "Avenir 45 Book";
+	font-size: 36px;
+	color: black;
+}
+.month4 {
+	font-family: "Avenir 45 Book";
+	font-size: 36px;
+	color: black;
+}
+.month5 {
+	font-family: "Avenir 45 Book";
+	font-size: 36px;
+	color: black;
+}
+.month6 {
+	font-family: "Avenir 45 Book";
+	font-size: 36px;
+	color: black;
+}
+.balance1 {
+	font-family: "Avenir 45 Book";
+	font-size: 34px;
+	color: black;
+}
+.balance2 {
+	font-family: "Avenir 45 Book";
+	font-size: 34px;
+	color: black;
+}
+.balance3 {
+	font-family: "Avenir 45 Book";
+	font-size: 34px;
+	color: black;
+}
+.balance4 {
+	font-family: "Avenir 45 Book";
+	font-size: 34px;
+	color: black;
+}
+.balance5 {
+	font-family: "Avenir 45 Book";
+	font-size: 34px;
+	color: black;
+}
+.balance6 {
+	font-family: "Avenir 45 Book";
+	font-size: 34px;
+	color: black;
+}
+.companyPay1 {
+	font-family: "Avenir 45 Book";
+	font-size: 34px;
+	color: black;
+}
+.companyPay2 {
+	font-family: "Avenir 45 Book";
+	font-size: 34px;
+	color: black;
+}
+.companyPay3 {
+	font-family: "Avenir 45 Book";
+	font-size: 34px;
+	color: black;
+}
+.companyPay4 {
+	font-family: "Avenir 45 Book";
+	font-size: 34px;
+	color: black;
+}
+.companyPay5 {
+	font-family: "Avenir 45 Book";
+	font-size: 34px;
+	color: black;
+}
+.companyPay6 {
+	font-family: "Avenir 45 Book";
+	font-size: 34px;
+	color: black;
+}
+
+.selfPay1 {
+	font-family: "Avenir 45 Book";
+	font-size: 34px;
+	color: black;
+}
+.selfPay2 {
+	font-family: "Avenir 45 Book";
+	font-size: 34px;
+	color: black;
+}
+.selfPay3 {
+	font-family: "Avenir 45 Book";
+	font-size: 34px;
+	color: black;
+}
+.selfPay4 {
+	font-family: "Avenir 45 Book";
+	font-size: 34px;
+	color: black;
+}
+.selfPay5 {
+	font-family: "Avenir 45 Book";
+	font-size: 34px;
+	color: black;
+}
+.selfPay6 {
+	font-family: "Avenir 45 Book";
+	font-size: 34px;
+	color: black;
+}
+
+.status1 {
+	font-family: "汉仪旗黑-35S";
+	font-size: 48px;
+	color: #50d2c2;
+}
+.status2 {
+	font-family: "汉仪旗黑-35S";
+	font-size: 48px;
+	color: #50d2c2;
+}
+.status3 {
+	font-family: "汉仪旗黑-35S";
+	font-size: 48px;
+	color: #50d2c2;
+}
+.status4 {
+	font-family: "汉仪旗黑-35S";
+	font-size: 48px;
+	color: #50d2c2;
+}
+.status5 {
+	font-family: "汉仪旗黑-35S";
+	font-size: 48px;
+	color: #50d2c2;
+}
+.status6 {
+	font-family: "汉仪旗黑-35S";
+	font-size: 48px;
+	color: #50d2c2;
+}
+
+#backwardButton {
+	border-width: 0px;
+	position: absolute;
+	left: 42px;
+	top: 94px;
+}
+
+#pageSwitch {
+	position: absolute;
+	top: 520px;
+	left: 304px;
+}

@@ -150,3 +150,10 @@ background-color: rgba(0, 0, 0, .3);
 	left: 461px;
 	top: 523px;
 }
+
+#backwardButton {
+	border-width: 0px;
+	position: absolute;
+	left: 42px;
+	top: 94px;
+}
