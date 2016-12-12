@@ -23,4 +23,13 @@
 		}	
 		$("#added").fadeToggle("slow");
 	});
+	$("#addcalendarevent").click(function(){
+		window.location.href="addCalendarEvent.html";
+	});
+	$("#addconference").click(function(){
+		 window.location.href="newconference.html";
+	});
+	$("#addoffice").click(function(){
+		 window.location.href="applyforreimbursement.html";
+	});
 });

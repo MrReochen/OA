@@ -474,3 +474,32 @@ body {
 	width: 1080px;
 	height: 615px;
 }
+
+
+
+#addcalendarevent {
+	font-family: "汉仪旗黑-35S";
+	font-size: 60px;
+	color: white;
+	position: absolute;
+	left: 113px;
+	top: 53px;
+}
+
+#addconference {
+	font-family: "汉仪旗黑-35S";
+	font-size: 60px;
+	color: white;
+	position: absolute;
+	left: 113px;
+	top: 217px;
+}
+
+#addoffice {
+	font-family: "汉仪旗黑-35S";
+	font-size: 60px;
+	color: white;
+	position: absolute;
+	left: 113px;
+	top: 381px;
+}

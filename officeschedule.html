@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+<head>
+<title>OfficeSchedule</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="files/officeschedule/styles.css" type="text/css" rel="stylesheet"/>
+   	<script src="resources/scripts/jquery.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/bootstrap.min.js"></script>
+    <script src="files/officeschedule/data.js"></script> 
+</head>
+
+<body>
+	<!-- top-->
+	<div style="border-width: 0px;position: absolute;left: 0px;top: 0px;">
+		<img src="images/officeschedule/top.png" alt=""/>
+	</div>
+	<!-- backward-->
+	<div>
+		<img id="backwardButton" src="images/public/backward.png" onclick="javascript: history.back();" alt=""/>
+	</div> 
+	<!-- schedule-->
+	<div class="table-container">
+		<table id="schedule" style="border-collapse: collapse;" rules="rows">
+			<body>
+				<tr height="187" style="border:3px solid #F8F8F8;">
+					<td width="58"></td>
+					<td width="586" colspan="2">
+						<p id="officeName">第一季度财务报销</p>
+					</td>
+					<td width="378">
+						<p id="officeStatus">正在审核中</p>
+					</td>
+					<td width="58"></td>
+				</tr>
+				<tr height="187" style="border:3px solid #F8F8F8;">
+					<td width="58"></td>
+					<td width="405">
+						<p class="steps">文印室修改、成文</p>
+					</td>
+					<td width="181">
+						<p class="stepStatus">待完成</p>
+					</td>
+					<td width="378">
+						<p class="stepTime"></p>
+					</td>
+					<td width="58"></td>
+				</tr>
+				<tr height="187" style="border:3px solid #F8F8F8;">
+					<td width="58"></td>
+					<td width="405">
+						<p class="steps">办公室文件编号</p>
+					</td>
+					<td width="181">
+						<p class="stepStatus">待完成</p>
+					</td>
+					<td width="378">
+						<p class="stepTime"></p>
+					</td>
+					<td width="58"></td>
+				</tr>
+				<tr height="187" style="border:3px solid #F8F8F8;">
+					<td width="58"></td>
+					<td width="405">
+						<p class="steps">会签部门/局领导审批</p>
+					</td>
+					<td width="181">
+						<p class="stepStatus">已同意</p>
+					</td>
+					<td width="378">
+						<p class="stepTime">2015.2.8 17:00</p>
+					</td>
+					<td width="58"></td>
+				</tr>
+				<tr height="187" style="border:3px solid #F8F8F8;">
+					<td width="58"></td>
+					<td width="405">
+						<p class="steps">办公室审稿</p>
+					</td>
+					<td width="181">
+						<p class="stepStatus">已完成</p>
+					</td>
+					<td width="378">
+						<p class="stepTime">2015.2.8 15:23</p>
+					</td>
+					<td width="58"></td>
+				</tr>
+				<tr height="187" style="border:3px solid #F8F8F8;">
+					<td width="58"></td>
+					<td width="405">
+						<p class="steps">部门领导审批</p>
+					</td>
+					<td width="181">
+						<p class="stepStatus">已同意</p>
+					</td>
+					<td width="378">
+						<p class="stepTime">2015.2.8 13:45</p>
+					</td>
+					<td width="58"></td>
+				</tr>
+			</body>
+		</table>
+	</div>
+</body>
+</html>

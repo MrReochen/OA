@@ -89,3 +89,29 @@
 	color: black;
 	text-align: center;
 }
+
+#evnetTitle {
+	font-family: "汉仪旗黑-35S","Avenir 45 Book";
+	font-size: 100.8px;
+	width: 1080px;
+	height: 100px;
+	position: absolute;
+	left: 0px;
+	top: 283px;
+	text-align: center;
+	background-color:transparent;
+	border:none;
+}
+
+#description {
+	font-family: "汉仪旗黑-35S","Avenir 45 Book";
+	font-size: 40.32px;
+	width: 1080px;
+	height: 41px;
+	position: absolute;
+	left: 0px;
+	top: 414px;
+	text-align: center;
+	background-color:transparent;
+	border:none;
+}

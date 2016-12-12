@@ -1,0 +1,67 @@
+/* CSS Document */
+@font-face{
+	font-family: "汉仪旗黑-35S";
+	src: url(../../resources/fonts/hyqh35S.ttf)
+}
+
+@font-face{
+	font-family: "Avenir 45 Book";
+	src: url(../../resources/fonts/Avenir-Book.otf)
+}
+
+#backwardButton {
+	border-width: 0px;
+	position: absolute;
+	left: 42px;
+	top: 94px;
+}
+
+.table-container {
+	position: absolute;
+	top: 547px;
+	left: 0px;
+	height:1373px;
+	width: 1080px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+
+}
+
+.table-container::-webkit-scrollbar
+{
+	-webkit-appearance: none;
+	width: 14px;
+	height: 14px;
+}
+
+#officeName {
+	font-size: 70px;
+	font-family: "汉仪旗黑-35S","Avenir 45 Book";
+	color: black;
+}
+
+#officeStatus {
+	font-size: 40.32px;
+	font-family: "汉仪旗黑-35S","Avenir 45 Book";
+	color: black;
+	text-align: right;
+}
+
+.steps {
+	font-family: "汉仪旗黑-35S","Avenir 45 Book";
+	font-size: 40.32px;
+	color: black;
+}
+
+.stepStatus {
+	font-family: "汉仪旗黑-35S","Avenir 45 Book";
+	font-size: 40.32px;
+	color: black;
+}
+
+.stepTime {
+	font-family: "汉仪旗黑-35S","Avenir 45 Book";
+	font-size: 40.32px;
+	color: black;
+	text-align: right;
+}
