@@ -1,0 +1,279 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>我的会议</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="files/myconference/style.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/calendar.css" type="text/css" rel="stylesheet"/>
+   	<script src="resources/scripts/jquery.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/jquery.rotate.min.js"></script>
+    <script src="resources/scripts/bootstrap.min.js"></script>
+    <script src="files/myconference/data.js"></script>
+    <script src="resources/scripts/calendar.js"></script>
+    
+    <style type="text/css">
+		a {
+			text-decoration: none;
+		}
+		ul, ol, li {
+			list-style: none;
+			padding: 0;
+			margin: 0;
+		}
+	</style>
+</head>
+
+<body>
+	<div>
+		<img src="images/myconference/head.png" style="position: absolute;left: 0px;top: 0px;" alt=""/>
+		<img id="close" src="images/newconference/close.png" alt=""/>
+		<img id="edit" src="images/myconference/edit.png"/>
+		<img id="pic" src="images/contract/con3-10.png"/>
+	</div>
+	<div class="all" style="position: absolute;left: 0px;top: 548px;width: 1080px;">
+  		<table border="0px" cellspacing="0">
+			<body>
+				<tr height="125" width="1080" style="background-color: #F8F8F8;">
+					<td width="97"></td>
+					<td width="150"><a class="step">step1</a></td>
+					<td width="744" class="condition">已完成</td>
+					<td width="89"></td>
+				</tr>
+			</body>
+		</table>
+		<table border="0px" cellspacing="0">
+			<body>
+				<tr height="237" width="1080">
+					<td width="88"></td>
+					<td class="top"  width="578" style="border-bottom-color: #8a8a8f;border-bottom-width: 2px;border-bottom-style: solid;">
+						<p class="title" >会议主题</p>
+						<p class="item">第一季度项目汇报</p>
+					</td>
+					<td width="337" style="border-bottom-color: #8a8a8f;border-bottom-width: 2px;border-bottom-style: solid;">
+						<img class="photo" src="images/newconference/photo.png"/>
+					</td>
+					<td ></td>
+				</tr>
+				<tr height="237" width="1080">
+					<td width="88"></td>
+					<td class="top"  width="578" style="border-bottom-color: #8a8a8f;border-bottom-width: 2px;border-bottom-style: solid;">
+						<p class="title" >时间</p>
+						<p class="item">2016.11.13</p>
+					</td>
+					<td width="337" style="border-bottom-color: #8a8a8f;border-bottom-width: 2px;border-bottom-style: solid;">
+					</td>
+					<td ></td>
+				</tr>
+			</body>
+		</table>
+		<table border="0px">
+			<body>	
+				<tr height="237" width="1080">
+					<td width="88"></td>
+					<td width="420"  style="border-bottom-color: #8a8a8f;border-bottom-width: 2px;border-bottom-style: solid;">
+						<p class="title">开始</p>
+						<p class="item">8：00am</p>
+					</td>
+					<td width="74"></td>
+					<td width="420" style="border-bottom-color: #8a8a8f;border-bottom-width: 2px;border-bottom-style: solid;">
+						<p class="title">结束</p>
+						<p class="item">9:00am</p>
+					</td>
+					<td></td>
+				</tr>
+			</body>
+		</table>
+		<table border="0px" cellspacing="0">
+			<body>
+				<tr height="237" width="1080">
+					<td width="88"></td>
+					<td class="top"  width="578" style="border-bottom-color: #8a8a8f;border-bottom-width: 2px;border-bottom-style: solid;">
+						<p class="title" >地点</p>
+						<p class="item">科创中心203</p>
+					</td>
+					<td width="337" style="border-bottom-color: #8a8a8f;border-bottom-width: 2px;border-bottom-style: solid;">
+						<img class="photo" src="images/newconference/location.png"/>
+					</td>
+					<td ></td>
+				</tr>
+				<tr height="237" width="1080">
+					<td width="88"></td>
+					<td class="top"  width="578" style="border-bottom-color: #8a8a8f;border-bottom-width: 2px;border-bottom-style: solid;">
+						<p class="title" >参会人员</p>
+						<p class="item">技术部全体</p>
+					</td>
+					<td width="337" style="border-bottom-color: #8a8a8f;border-bottom-width: 2px;border-bottom-style: solid;">
+						<p>
+							<img class="photo" id="add" src="images/newconference/addition.png" style="padding-left: 20px"/>
+							<img class="photo" src="images/newconference/photo.png" style="padding-left: 20px"/>
+							<img class="photo" src="images/myconference/photo.png" />
+						</p>
+					</td>
+					<td ></td>
+				</tr>
+				<tr height="237" width="1080">
+					<td width="88"></td>
+					<td class="top"  width="578" style="border-bottom-color: #8a8a8f;border-bottom-width: 2px;border-bottom-style: solid;">
+						<p class="title" >会议类型</p>
+						<p class="item">大型会议</p>
+					</td>
+					<td width="337" style="border-bottom-color: #8a8a8f;border-bottom-width: 2px;border-bottom-style: solid;">
+					</td>
+					<td ></td>
+				</tr>
+				<tr height="237" width="1080">
+					<td width="88"></td>
+					<td class="top"  width="578" style="border-bottom-color: #8a8a8f;border-bottom-width: 2px;border-bottom-style: solid;">
+						<p class="title" >会议目的</p>
+						<p class="item">XXXXXXXXXXX</p>
+					</td>
+					<td width="337" style="border-bottom-color: #8a8a8f;border-bottom-width: 2px;border-bottom-style: solid;">
+					</td>
+					<td ></td>
+				</tr>
+				<tr height="237" width="1080">
+					<td width="88"></td>
+					<td class="top"  width="578" style="border-bottom-color: #8a8a8f;border-bottom-width: 2px;border-bottom-style: solid;">
+						<p class="title" >会议资料</p>
+						<p style="line-height: 68px">
+						<table border="0">
+						<tr>
+							<td rowspan="2"><img src="images/newconference/addition.png" /></td>
+							<td id="name">xxxx.pdf</td>
+						</tr>
+						<tr>
+							<td id="size">3.2MB</td>
+						</tr>
+						</table>
+						</p>
+					</td>
+					<td width="337" style="border-bottom-color: #8a8a8f;border-bottom-width: 2px;border-bottom-style: solid;">
+						<p class="title"  style="color: white">mingxi</p>
+						<p id="text">2016.11.3</p>
+					</td>
+					<td ></td>
+				</tr>
+				<tr height="237" width="1080">
+					<td width="88"></td>
+					<td class="top"  width="578" >
+						<p class="title" >备注</p>
+						<p class="item">无</p>
+					</td>
+					<td width="337" >
+					</td>
+					<td ></td>
+				</tr>	
+			</body>
+		</table>
+		<table border="0px" cellspacing="0">
+			<body>
+				<tr height="125" width="1080" style="background-color: #F8F8F8;">
+					<td width="97"></td>
+					<td width="150"><a class="step">step2</a></td>
+					<td width="744" class="condition">已完成</td>
+					<td width="89"></td>
+				</tr>
+			</body>
+		</table>
+		<table border="0px" cellspacing="0">
+			<body>
+				<tr height="237" width="1080">
+					<td width="88"></td>
+					<td class="top"  width="578" style="border-bottom-color: #8a8a8f;border-bottom-width: 2px;border-bottom-style: solid;">
+						<p class="title" >经理审批</p>
+						<p class="item">已通过</p>
+					</td>
+					<td width="337" style="border-bottom-color: #8a8a8f;border-bottom-width: 2px;border-bottom-style: solid;">
+					</td>
+					<td ></td>
+				</tr>
+				<tr height="237" width="1080">
+					<td width="88"></td>
+					<td class="top"  width="578" style="border-bottom-color: #8a8a8f;border-bottom-width: 2px;border-bottom-style: solid;">
+						<p class="title" >会议通知</p>
+						<p class="item">已下发</p>
+					</td>
+					<td width="337" style="border-bottom-color: #8a8a8f;border-bottom-width: 2px;border-bottom-style: solid;">
+					</td>
+					<td ></td>
+				</tr>
+				<tr height="237" width="1080">
+				<td width="88"></td>
+					<td class="top"  width="578" >
+					<p class="text" >已有53人收到通知</p>
+					</td>
+					<td width="337">
+					<p>
+						<img class="photo" id="more" src="images/myconference/right.png" style="padding-left: 20px"/>
+						<img class="photo" src="images/newconference/photo.png" style="padding-left: 20px"/>
+						<img class="photo" src="images/myconference/photo.png" />
+					</p>
+				</td>
+				<td ></td>
+				</tr>
+			</body>
+		</table>
+		<table border="0px" cellspacing="0">
+			<body>
+				<tr height="125" width="1080" style="background-color: #F8F8F8;">
+					<td width="97"></td>
+					<td width="150"><a class="step">step3</a></td>
+					<td width="744" class="condition">已完成</td>
+					<td width="89"></td>
+				</tr>
+			</body>
+		</table>
+		<table border="0px" cellspacing="0">
+			<body>
+				<tr height="237" width="1080">
+					<td width="88"></td>
+					<td class="top"  width="578" >
+						<p class="title" >会议预算</p>
+						<p class="item">1092.3</p>
+					</td>
+					<td width="337" >
+			  			<p class="title"  style="color: white">mingxi</p>
+						<p id="righttext">明细
+						<img class="photo" id="detail" src="images/myconference/right.png" />
+						</p>
+					</td>
+					<td ></td>
+				</tr>
+			</body>
+		</table>
+		<table border="0px" cellspacing="0">
+			<body>
+				<tr height="125" width="1080" style="background-color: #F8F8F8;">
+					<td width="97"></td>
+					<td width="150"><a class="step">step4</a></td>
+					<td width="744" class="condition">已完成</td>
+					<td width="89"></td>
+				</tr>
+			</body>
+		</table>
+		<table border="0px" cellspacing="0">
+			<body>
+				<tr height="237" width="1080">
+					<td width="88"></td>
+					<td class="top"  width="578" style="border-bottom-color: #8a8a8f;border-bottom-width: 2px;border-bottom-style: solid;">
+						<p class="title" >经理审批</p>
+						<p class="item" >已通过</p>
+					</td>
+					<td width="337" style="border-bottom-color: #8a8a8f;border-bottom-width: 2px;border-bottom-style: solid;">
+					</td>
+					<td ></td>
+				</tr>
+			</body>
+		</table>
+		
+	</div>
+	
+	
+</body>
+</html>

@@ -1,4 +1,6 @@
+@charset "utf-8";
 /* CSS Document */
+
 @font-face{
 	font-family: "汉仪旗黑-35S";
 	src: url(../../resources/fonts/hyqh35S.ttf)
@@ -13,34 +15,6 @@
 	position: absolute;
 	left: 47px;
 	top: 112px;
-}
-
-#check {
-	position: absolute;
-	left: 964px;
-	top: 112px;
-}
-
-.title {
-	font-family: "汉仪旗黑-35S";
-	font-size: 34.56px;
-	color: #1D1D26;
-	line-height: 68px;
-}
-
-.item {
-	font-family: "汉仪旗黑-35S";
-	font-size: 40.32px;
-	color: #1d1d26;
-	line-height: 68px;
-}
-
-.photo {
-	float: right;
-}
-
-#photo {
-	padding-top: 109px;
 }
 
 .all {
@@ -64,9 +38,31 @@ border: 3px solid #fff;
 background-color: rgba(0, 0, 0, .3);
 }
 
+.step {
+	font-family: "汉仪旗黑-35S";
+	font-size: 51.84px;
+	color: #8a8a8f;
+}
+
+.condition {
+	font-family: "汉仪旗黑-35S";
+	font-size: 51.84px;
+	color: #8a8a8f;
+	text-align: right;
+}
+
+.title {
+	font-family: "汉仪旗黑-35S";
+	font-size: 34.56px;
+	color: #1D1D26;
+	line-height: 68px;
+}
+
+
+
 .input1 {
 	border-width:0px;
-  width:578px;
+  width:420px;
   height:70px;
   letter-spacing:0px;
   font-family:"汉仪旗黑-35S"; 
@@ -74,60 +70,64 @@ background-color: rgba(0, 0, 0, .3);
   color:#1d1d26;
   background-color:transparent;
   text-align: left;
- 
 }
 
-#file {
+.photo {
+	float: right;
+}
+
+#edit {
+	position: absolute;
+	left: 964px;
+	top: 112px;
+}
+
+.item {
 	font-family: "汉仪旗黑-35S";
 	font-size: 40.32px;
+	color: #1D1D26;
+	line-height: 68px;
+}
+
+.text {
+	font-family: "汉仪旗黑-35S";
+	font-size: 34.56px;
+	color: #1D1D26;
+}
+
+#text {
+	font-family: "汉仪旗黑-35S";
+	font-size: 34.56px;
+	color: #1D1D26;
+	line-height: 68px;
+	text-align: right;
+}
+
+#name {
+	font-family: "汉仪旗黑-35S";
+	text-align: left;
 	color: #1d1d26;
+	font-size: 40.27px;
 }
 
 #size {
 	font-family: "汉仪旗黑-35S";
-	font-size: 34.56px;
-	color: #1d1d26;
-}
-
-#right {
-	font-family: "汉仪旗黑-35S";
-	font-size: 34.56px;
-	color: #1d1d26;
-	text-align: right;
-	padding-top: 80px;
-}
-
-#date {
-	border:none;
-	width:280px;
-  	height:50px;
- 	letter-spacing:0px;
-	background-color:transparent;
-	font-family:'Avenir 45 Book',"汉仪旗黑-35S";
-	font-size: 40.32px;
-	color: black;
 	text-align: left;
+	color: #1d1d26;
+	font-size: 34.52px;
 }
 
-.addition {
-	float: right;
+#righttext {
+	text-align: right;
+	font-family: "汉仪旗黑-35S";
+	font-size: 40.32px;
+	color: #1D1D26;
+	line-height: 68px;
 }
 
 #pic {
-	left:500px;
-	top:752px;
-	position:absolute;
-	z-index: 3;
-}
-
-.inputtime {
-	border-width:0px;
-  width:422px;
-  height:70px;
-  letter-spacing:0px;
-  font-family:"汉仪旗黑-35S"; 
-  font-size:40.27px; 
-  color:#1d1d26;
-  background-color:transparent;
-  text-align: left;
+	position: absolute;
+	left: 500px;
+	top: 1000px;
+	z-index: 2;
 }

@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face{
+	font-family: "汉仪旗黑-35S";
+	src: url(../../resources/fonts/hyqh35S.ttf)
+}
+
+@font-face{
+	font-family: "Avenir 45 Book";
+	src: url(../../resources/fonts/Avenir-Book.otf)
+}
+
+#close {
+	position: absolute;
+	left: 47px;
+	top: 112px;
+}
+
+.table-container {
+	position: absolute;
+	top: 547px;
+	left: 0px;
+}
+
+#conferenceTable {
+	width: 1080px;
+	border-collapse: collapse;
+}
+
+.type {
+		font-family: "汉仪旗黑-35S";
+	font-size: 43px;
+	color: #A3A3A5;
+}
+
+.conferenceName {
+	font-family: "汉仪旗黑-35S";
+	font-size: 43px;
+	color: black;
+}
+
+.timeInformation {
+	font-family: Avenir Light;
+	font-size: 35px;
+	color: #a3a3a5;
+}
+
+.conferenceClass {
+	width: 176px;
+	text-align: right;
+	font-family: "汉仪旗黑-35S";
+	font-size: 35px;
+	color: black;
+}
