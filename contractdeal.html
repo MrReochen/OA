@@ -1,0 +1,143 @@
+<!doctype html>
+<html>
+<head>
+	<title>ContractDeal</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="files/contractdeal/styles.css" type="text/css" rel="stylesheet"/>
+   	<script src="resources/scripts/jquery.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/bootstrap.min.js"></script>
+    <script src="files/contractdeal/data.js"></script>
+</head>
+
+<body>
+	<!-- top-->
+	<div style="position: absolute;left: 0px;top: 0px;">
+		<img src="images/contractdeal/top.png" alt=""/>
+	</div>
+	<!-- closeButton-->
+	<div style="border-width: 0px;position: absolute;left: 42px;top: 94px;">
+		<img src="images/public/close_white.png" alt="" onClick="javascript: history.back();"/>
+	</div>
+	<!-- checkButton-->
+	<div style="border-width: 0px;position: absolute;left: 975px;top: 94px; ">
+		<img id="save" src="images/public/check_white.png" alt=""/>
+	</div>
+	<!-- contract number-->
+	<div>
+		<a id="contractNumer">No.19283</a>
+	</div>
+	<!-- main content table-->
+	<div class="table-container">
+		<table id="contractInformation" rules="rows" cellspacing="0">
+			<body>
+				<tr height="173" style="border: 4px solid #f3f3f3;">
+					<td width="58"></td>
+					<td width="400">
+						<p class="typeName" style="font-size: 52px;">查看合同正文</p>
+					</td>
+					<td width="564" align="right">
+						<table class="file">
+							<body>
+								<tr>
+									<td>
+										<p class="fileName">XXXX.pdf</p>
+										<p class="fileSize">4.6MB</p>
+									</td>
+									<td>
+										<img class="fileIcon" src="images/public/PDFIcon.png" alt=""/>
+									</td>
+								</tr>
+							</body>
+						</table>
+					</td>
+					<td width="58"></td>
+				</tr>
+				<tr height="173" style="border: 4px solid #f3f3f3;">
+					<td width="58"></td>
+					<td width="400">
+						<p class="approvalTypeName">同意该合同</p>
+					</td>
+					<td width="564" align="right">
+						<img id="approvalPass" src="images/public/switchOn.png"/>
+						<img id="approvalDeny" src="images/public/switchOff.png"/>
+					</td>
+					<td width="58"></td>
+				</tr>
+				<tr height="173" style="border: 4px solid #f3f3f3;">
+					<td width="58"></td>
+					<td width="400">
+						<p class="approvalTypeName">备注意见</p>
+					</td>
+					<td width="564" align="right">
+						<input id="suggestion" type="text" placeholder="无"/>
+					</td>
+					<td width="58"></td>
+				</tr>
+				<tr height="173" style="background-color: #F3F3F3;">
+					<td width="58"></td>
+					<td width="964" colspan="2">
+						<p class="className">流程总览</p>
+					</td>
+					<td width="58"></td>
+				</tr>
+				<tr height="173" style="border: 4px solid #f3f3f3;">
+					<td width="58"></td>
+					<td width="400">
+						<p class="approvalTypeName">承办部门负责人</p>
+					</td>
+					<td width="564" align="right">
+						<p class="approvalContent">已通过</p>
+					</td>
+					<td width="58"></td>
+				</tr>
+				<tr height="173" style="border: 4px solid #f3f3f3;">
+					<td width="58"></td>
+					<td width="964" align="right" colspan="2">
+						<p class="approvalContent">无备注意见</p>
+					</td>
+					<td width="58"></td>
+				</tr>
+				<tr height="173" style="border: 4px solid #f3f3f3;">
+					<td width="58"></td>
+					<td width="400">
+						<p class="approvalTypeName" style="font-size: 38px;">相关职能部门负责人</p>
+					</td>
+					<td width="564" align="right">
+						<p class="approvalContent">已通过</p>
+					</td>
+					<td width="58"></td>
+				</tr>
+				<tr height="173" style="border: 4px solid #f3f3f3;">
+					<td width="58"></td>
+					<td width="964" align="right" colspan="2">
+						<p class="approvalContent">无备注意见</p>
+					</td>
+					<td width="58"></td>
+				</tr>
+				<tr height="173" style="border: 4px solid #f3f3f3;">
+					<td width="58"></td>
+					<td width="400">
+						<p class="approvalTypeName">监察法规室负责人</p>
+					</td>
+					<td width="564" align="right">
+						<p class="approvalContent">已通过</p>
+					</td>
+					<td width="58"></td>
+				</tr>
+				<tr height="173" style="border: 4px solid #f3f3f3;">
+					<td width="58"></td>
+					<td width="964" align="right" colspan="2">
+						<p class="approvalContent">无备注意见</p>
+					</td>
+					<td width="58"></td>
+				</tr>
+			</body>
+		</table>
+	</div>
+</body>
+</html>

@@ -9,7 +9,7 @@
 	src: url(../../resources/fonts/Avenir-Book.otf)
 }
 
-#finaceNumer {
+#contractNumer {
 	font-family: "汉仪旗黑-35S";
 	font-size: 52px;
 	color: white;
@@ -42,8 +42,14 @@ border: 3px solid #fff;
 background-color: rgba(0, 0, 0, .3);
 }
 
-#financeInformation {
+#contractInformation {
 	border-collapse: collapse;
+}
+
+.typeName {
+	font-family: '汉仪旗黑-35S';
+	font-size: 40.32px;
+	color:#a8a8aa;
 }
 
 .fileName {
@@ -58,59 +64,10 @@ background-color: rgba(0, 0, 0, .3);
 	color: #a8a8aa;
 }
 
-.typeName {
-	font-family: '汉仪旗黑-35S';
-	font-size: 40.32px;
-	color:#a8a8aa;
-}
-
-.content {
-	font-family: "汉仪旗黑-35S","Avenir 45 Book";
-	font-size: 40.32px;
-	color: black;
-}
-
-.className {
-	font-family: "汉仪旗黑-35S";
-	font-size: 43.2px;
-	color: black;
-}
-
-.journeyTypeName {
-	font-family: '汉仪旗黑-35S';
-	font-size: 40.32px;
-	color:#a8a8aa;
-}
-
-.journeyContent {
-	font-family: "汉仪旗黑-35S","Avenir 45 Book";
-	font-size: 40.32px;
-	color: black;
-}
-
-.journeyCost {
-	font-family: "汉仪旗黑-35S","Avenir 45 Book";
-	font-size: 40.32px;
-	color: black;
-}
-
-.totalCost {
-	font-family: "汉仪旗黑-35S","Avenir 45 Book";
-	font-size: 40.32px;
-	color: black;
-}
-
 .approvalTypeName {
 	font-family: '汉仪旗黑-35S';
 	font-size: 40.32px;
 	color:#a8a8aa;
-}
-
-.approvalContent {
-	
-	font-family: "汉仪旗黑-35S","Avenir 45 Book";
-	font-size: 40.32px;
-	color: black;
 }
 
 #suggestion {
@@ -122,4 +79,16 @@ background-color: rgba(0, 0, 0, .3);
 	background-color:transparent;
 	height: 174px;
 	width: 607px;
+}
+
+.className {
+	font-family: "汉仪旗黑-35S";
+	font-size: 43.2px;
+	color: black;
+}
+
+.approvalContent {
+	font-family: "汉仪旗黑-35S","Avenir 45 Book";
+	font-size: 40.32px;
+	color: black;
 }
