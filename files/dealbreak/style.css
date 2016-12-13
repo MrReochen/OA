@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face{
+	font-family: "汉仪旗黑-35S";
+	src: url(../../resources/fonts/hyqh35S.ttf)
+}
+@font-face{
+	font-family: "Avenir 45 Book";
+	src: url(../../resources/fonts/Avenir-Book.otf)
+}
+#close {
+	position: absolute;
+	left: 47px;
+	top: 112px;
+}
+
+e.all {
+	height: 1206px;
+	width: 100%;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	z-index: -1;
+}
+
+.all {
+	height: 1206px;
+	width: 100%;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+.all::-webkit-scrollbar
+{
+-webkit-appearance: none;
+width: 14px;
+height: 14px;
+}
+
+#table1 {
+	width: 1080px;
+	border-collapse: collapse;
+}
+
+.title {
+	font-family: "汉仪旗黑-35S";
+	font-size: 40.27px;
+	color: #1d1d26;
+}
+
+.item {
+	text-align: right;
+	font-family: "汉仪旗黑-35S";
+	font-size: 40.27px;
+	color: #1d1d26;
+}
+
+#switch {
+	float: right;
+}
+
+#switch1 {
+	float: right;
+}
+
+.input1 {
+	border-width:0px;
+  width:682px;
+  height:70px;
+  letter-spacing:0px;
+  font-family:"汉仪旗黑-35S"; 
+  font-size:40.27px; 
+  color:#1d1d26;
+  background-color:transparent;
+  text-align: right;
+}
+
+#check {
+	position: absolute;
+	left: 964px;
+	top: 112px;
+}

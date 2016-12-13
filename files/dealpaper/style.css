@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face{
+	font-family: "汉仪旗黑-35S";
+	src: url(../../resources/fonts/hyqh35S.ttf)
+}
+@font-face{
+	font-family: "Avenir 45 Book";
+	src: url(../../resources/fonts/Avenir-Book.otf)
+}
+
+#close {
+	position: absolute;
+	left: 47px;
+	top: 112px;
+}
+
+#check {
+	position: absolute;
+	left: 964px;
+	top: 112px;
+}
+
+.title {
+	font-family: "汉仪旗黑-35S";
+	font-size: 40.27px;
+	color: #1d1d26;
+}
+
+.item {
+	float: right;
+}
