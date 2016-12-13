@@ -1,0 +1,69 @@
+/* CSS Document */
+@font-face{
+	font-family: "汉仪旗黑-35S";
+	src: url(../../resources/fonts/hyqh35S.ttf)
+}
+
+@font-face{
+	font-family: "Avenir 45 Book";
+	src: url(../../resources/fonts/Avenir-Book.otf)
+}
+
+
+#backwardButton {
+	border-width: 0px;
+	position: absolute;
+	left: 42px;
+	top: 94px;
+}
+
+.table-container {
+	position: absolute;
+	top: 1365px;
+	left: 0px;
+	height: 555px;
+	width: 1080px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+.table-container::-webkit-scrollbar
+{
+-webkit-appearance: none;
+width: 14px;
+height: 14px;
+}
+
+
+.pieceNum {
+	font-family: "Avenir 45 Book";
+	font-size: 40px;
+	color: black;
+}
+
+#percent1 {
+	font-family: Avenir Light;
+	font-size: 115px;
+	color: white;
+	position: absolute;
+	left: 467px;
+	top: 648px;
+}
+
+#percent2 {
+	font-family: Avenir Light;
+	font-size: 69px;
+	color: white;
+	position: absolute;
+	left: 124px;
+	top: 746px;
+}
+
+#percent3 {
+	font-family: Avenir Light;
+	font-size: 69px;
+	color: white;
+	position: absolute;
+	left: 858px;
+	top: 746px;
+}
