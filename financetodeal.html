@@ -1,0 +1,358 @@
+<!doctype html>
+<html>
+<head>
+	<title>FinanceToDeal</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="files/financetodeal/styles.css" type="text/css" rel="stylesheet"/>
+   	<script src="resources/scripts/jquery.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/bootstrap.min.js"></script>
+    <script src="files/financetodeal/data.js"></script>
+</head>
+
+<body>
+	<!-- top-->
+	<div style="position: absolute;left: 0px;top: 0px;">
+		<img src="images/financetodeal/top.png" alt=""/>
+	</div>
+	<!-- closeButton-->
+	<div style="border-width: 0px;position: absolute;left: 42px;top: 94px;">
+		<img src="images/public/close_white.png" alt="" onClick="javascript: history.back();"/>
+	</div>
+	<!-- checkButton-->
+	<div style="border-width: 0px;position: absolute;left: 975px;top: 94px; ">
+		<img id="save" src="images/public/check_white.png" alt=""/>
+	</div>
+	<!-- finance number-->
+	<div>
+		<a id="finaceNumer">No.19283</a>
+	</div>
+	<!-- main content table-->
+	<div class="table-container">
+		<table id="financeInformation" rules="rows" cellspacing="0">
+			<body>
+				<tr height="173" style="border: 4px solid #f3f3f3;">
+					<td width="58"></td>
+					<td width="357">
+						<p class="typeName" style="font-size: 52px;">报销单</p>
+					</td>
+					<td width="607" align="right">
+						<table class="file">
+							<body>
+								<tr>
+									<td>
+										<p class="fileName">XXXX.pdf</p>
+										<p class="fileSize">4.6MB</p>
+									</td>
+									<td>
+										<img class="fileIcon" src="images/public/PDFIcon.png" alt=""/>
+									</td>
+								</tr>
+							</body>
+						</table>
+					</td>
+					<td width="58"></td>
+				</tr>
+				<tr height="173" style="border: 4px solid #f3f3f3;">
+					<td width="58"></td>
+					<td width="357">
+						<p class="typeName">申请人</p>
+					</td>
+					<td width="607" align="right">
+						<p class="content">XX</p>
+					</td>
+					<td width="58"></td>
+				</tr>
+				<tr height="173" style="border: 4px solid #f3f3f3;">
+					<td width="58"></td>
+					<td width="357">
+						<p class="typeName">使用部门</p>
+					</td>
+					<td width="607" align="right">
+						<p class="content">财务部</p>
+					</td>
+					<td width="58"></td>
+				</tr>
+				<tr height="173" style="border: 4px solid #f3f3f3;">
+					<td width="58"></td>
+					<td width="357">
+						<p class="typeName">活动说明</p>
+					</td>
+					<td width="607" align="right">
+						<p class="content">XXXXXXXXXX</p>
+					</td>
+					<td width="58"></td>
+				</tr>
+				<tr height="173" style="border: 4px solid #f3f3f3;">
+					<td width="58"></td>
+					<td width="357">
+						<p class="typeName">报销主题</p>
+					</td>
+					<td width="607" align="right">
+						<p class="content">XXXXXXXX</p>
+					</td>
+					<td width="58"></td>
+				</tr>
+				<tr height="173" style="background-color: #F3F3F3;">
+					<td width="58"></td>
+					<td width="964" colspan="2">
+						<p class="className">行程1</p>
+					</td>
+					<td width="58"></td>
+				</tr>
+				<tr height="173" style="border: 4px solid #f3f3f3;">
+					<td width="58"></td>
+					<td width="357">
+						<p class="journeyTypeName">出发地</p>
+					</td>
+					<td width="607" align="right">
+						<p class="journeyContent">绵阳市</p>
+					</td>
+					<td width="58"></td>
+				</tr>
+				<tr height="173" style="border: 4px solid #f3f3f3;">
+					<td width="58"></td>
+					<td width="357">
+						<p class="journeyTypeName">出发日期</p>
+					</td>
+					<td width="607" align="right">
+						<p class="journeyContent">2016.11.2</p>
+					</td>
+					<td width="58"></td>
+				</tr>
+				<tr height="173" style="border: 4px solid #f3f3f3;">
+					<td width="58"></td>
+					<td width="357">
+						<p class="journeyTypeName">交通方式</p>
+					</td>
+					<td width="607" align="right">
+						<p class="journeyContent">火车-硬座</p>
+					</td>
+					<td width="58"></td>
+				</tr>
+				<tr height="173" style="border: 4px solid #f3f3f3;">
+					<td width="58"></td>
+					<td width="357">
+						<p class="journeyTypeName">到达地</p>
+					</td>
+					<td width="607" align="right">
+						<p class="journeyContent">成都市</p>
+					</td>
+					<td width="58"></td>
+				</tr>
+				<tr height="173" style="border: 4px solid #f3f3f3;">
+					<td width="58"></td>
+					<td width="357">
+						<p class="journeyTypeName">到达日期</p>
+					</td>
+					<td width="607" align="right">
+						<p class="journeyContent">2016.11.2</p>
+					</td>
+					<td width="58"></td>
+				</tr>
+				<tr height="173" style="border: 4px solid #f3f3f3;">
+					<td width="58"></td>
+					<td width="357">
+						<p class="journeyTypeName">备注说明</p>
+					</td>
+					<td width="607" align="right">
+						<p class="journeyContent">XXXXXXXXXX</p>
+					</td>
+					<td width="58"></td>
+				</tr>
+				<tr height="173" style="border: 4px solid #f3f3f3;">
+					<td width="58"></td>
+					<td width="357">
+						<p class="journeyTypeName">自购票价</p>
+					</td>
+					<td width="607" align="right">
+						<p class="journeyCost">23.00</p>
+					</td>
+					<td width="58"></td>
+				</tr>
+				<tr height="173" style="border: 4px solid #f3f3f3;">
+					<td width="58"></td>
+					<td width="357">
+						<p class="journeyTypeName">其他费用</p>
+					</td>
+					<td width="607" align="right">
+						<p class="journeyCost">23.00</p>
+					</td>
+					<td width="58"></td>
+				</tr>
+				<tr height="173" style="border: 4px solid #f3f3f3;">
+					<td width="58"></td>
+					<td width="357">
+						<p class="journeyTypeName">住勤补助</p>
+					</td>
+					<td width="607" align="right">
+						<p class="journeyCost">23.00</p>
+					</td>
+					<td width="58"></td>
+				</tr>
+				<tr height="173" style="background-color: #F3F3F3;">
+					<td width="58"></td>
+					<td width="357">
+						<p class="className">总计</p>
+					</td>
+					<td width="607" align="right">
+						<p class="totalCost"></p>
+					</td>
+					<td width="58"></td>
+				</tr>
+				<tr height="173" style="border: 4px solid #f3f3f3;">
+					<td width="58"></td>
+					<td width="357">
+						<p class="typeName">票据快照</p>
+					</td>
+					<td width="607" align="right">
+						<table class="file">
+							<body>
+								<tr>
+									<td>
+										<p class="fileName">XXXX.jpg</p>
+										<p class="fileSize">32KB</p>
+									</td>
+									<td>
+										<img class="fileIcon" src="images/public/picIcon.png" alt=""/>
+									</td>
+								</tr>
+							</body>
+						</table>
+					</td>
+					<td width="58"></td>
+				</tr>
+				<tr height="173" style="border: 4px solid #f3f3f3;">
+					<td width="58"></td>
+					<td width="357">
+					</td>
+					<td width="607" align="right">
+						<table class="file">
+							<body>
+								<tr>
+									<td>
+										<p class="fileName">XXXX.jpg</p>
+										<p class="fileSize">32KB</p>
+									</td>
+									<td>
+										<img class="fileIcon" src="images/public/picIcon.png" alt=""/>
+									</td>
+								</tr>
+							</body>
+						</table>
+					</td>
+					<td width="58"></td>
+				</tr>
+				<tr height="173" style="border: 4px solid #f3f3f3;">
+					<td width="58"></td>
+					<td width="357">
+					</td>
+					<td width="607" align="right">
+						<table class="file">
+							<body>
+								<tr>
+									<td>
+										<p class="fileName">XXXX.jpg</p>
+										<p class="fileSize">32KB</p>
+									</td>
+									<td>
+										<img class="fileIcon" src="images/public/picIcon.png" alt=""/>
+									</td>
+								</tr>
+							</body>
+						</table>
+					</td>
+					<td width="58"></td>
+				</tr>
+				<tr height="173" style="border: 4px solid #f3f3f3;">
+					<td width="58"></td>
+					<td width="357">
+					</td>
+					<td width="607" align="right">
+						<table class="file">
+							<body>
+								<tr>
+									<td>
+										<p class="fileName">XXXX.jpg</p>
+										<p class="fileSize">32KB</p>
+									</td>
+									<td>
+										<img class="fileIcon" src="images/public/picIcon.png" alt=""/>
+									</td>
+								</tr>
+							</body>
+						</table>
+					</td>
+					<td width="58"></td>
+				</tr>
+				<tr height="173" style="background-color: #F3F3F3;">
+					<td width="58"></td>
+					<td width="964" colspan="2">
+						<p class="className">审批意见</p>
+					</td>
+					<td width="58"></td>
+				</tr>
+				<tr height="173" style="border: 4px solid #f3f3f3;">
+					<td width="58"></td>
+					<td width="357">
+						<p class="approvalTypeName">部门负责人</p>
+					</td>
+					<td width="607" align="right">
+						<p class="approvalContent">已通过</p>
+					</td>
+					<td width="58"></td>
+				</tr>
+				<tr height="173" style="border: 4px solid #f3f3f3;">
+					<td width="58"></td>
+					<td width="964" align="right" colspan="2">
+						<p class="approvalContent">无备注意见</p>
+					</td>
+					<td width="58"></td>
+				</tr>
+				<tr height="173" style="border: 4px solid #f3f3f3;">
+					<td width="58"></td>
+					<td width="357">
+						<p class="approvalTypeName">财务部</p>
+					</td>
+					<td width="607" align="right">
+						<p class="approvalContent">已通过</p>
+					</td>
+					<td width="58"></td>
+				</tr>
+				<tr height="173" style="border: 4px solid #f3f3f3;">
+					<td width="58"></td>
+					<td width="964" align="right" colspan="2">
+						<p class="approvalContent">无备注意见</p>
+					</td>
+					<td width="58"></td>
+				</tr>
+				<tr height="173" style="border: 4px solid #f3f3f3;">
+					<td width="58"></td>
+					<td width="357">
+						<p class="approvalTypeName">同意该财务</p>
+					</td>
+					<td width="607" align="right">
+						<img id="approvalPass" src="images/public/switchOn.png"/>
+						<img id="approvalDeny" src="images/public/switchOff.png"/>
+					</td>
+					<td width="58"></td>
+				</tr>
+				<tr height="173" style="border: 4px solid #f3f3f3;">
+					<td width="58"></td>
+					<td width="357">
+						<p class="approvalTypeName">备注意见</p>
+					</td>
+					<td width="607" align="right">
+						<input id="suggestion" type="text" placeholder="无"/>
+					</td>
+					<td width="58"></td>
+				</tr>
+			</body>
+		</table>
+	</div>
+</body>
+</html>

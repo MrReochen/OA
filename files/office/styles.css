@@ -80,3 +80,7 @@ background-color: rgba(0, 0, 0, .3);
 	font-size: 40px;
 	color: #AFAFB0;
 }
+
+#officeTable {
+	border-collapse: collapse;
+}

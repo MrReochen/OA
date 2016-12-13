@@ -136,11 +136,11 @@
 }
 .calendar .calendar-views .now {
     color: #fff;
-    background: #66be8c!important;  
+    background: #ff3366!important;  
 }
 .calendar .calendar-views .selected {
-    color: #66be8c;
-    background: #CDE9D9!important; 
+    color: #ff3366;
+    background: #fc92ad!important; 
 }
 .calendar .calendar-views .dot {
     position: absolute;
@@ -149,7 +149,7 @@
     margin-left: -2px; 
     width: 4px;
     height: 4px;
-    background: #66be8c;
+    background: #ff3366;
     border-radius: 50%;
 }
 .calendar-views .now .dot {

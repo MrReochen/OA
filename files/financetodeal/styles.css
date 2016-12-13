@@ -1,0 +1,125 @@
+/* CSS Document */
+@font-face{
+	font-family: "汉仪旗黑-35S";
+	src: url(../../resources/fonts/hyqh35S.ttf)
+}
+
+@font-face{
+	font-family: "Avenir 45 Book";
+	src: url(../../resources/fonts/Avenir-Book.otf)
+}
+
+#finaceNumer {
+	font-family: "汉仪旗黑-35S";
+	font-size: 52px;
+	color: white;
+	position: absolute;
+	left: 630px;
+	top: 291px;
+}
+
+.table-container {
+	position: absolute;
+	top: 547px;
+	left: 0px;
+	height: 1373px;
+	width: 1080px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+.table-container::-webkit-scrollbar
+{
+-webkit-appearance: none;
+width: 14px;
+height: 14px;
+}
+
+.table-container::-webkit-scrollbar-thumb
+{
+border-radius: 8px;
+border: 3px solid #fff;
+background-color: rgba(0, 0, 0, .3);
+}
+
+#financeInformation {
+	border-collapse: collapse;
+}
+
+.fileName {
+	font-family: "Avenir 45 Book";
+	font-size: 52px;
+	color: black;
+}
+
+.fileSize {
+	font-family: "Avenir 45 Book";
+	font-size: 34.6px;
+	color: #a8a8aa;
+}
+
+.typeName {
+	font-family: '汉仪旗黑-35S';
+	font-size: 40.32px;
+	color:#a8a8aa;
+}
+
+.content {
+	font-family: "汉仪旗黑-35S","Avenir 45 Book";
+	font-size: 40.32px;
+	color: black;
+}
+
+.className {
+	font-family: "汉仪旗黑-35S";
+	font-size: 43.2px;
+	color: black;
+}
+
+.journeyTypeName {
+	font-family: '汉仪旗黑-35S';
+	font-size: 40.32px;
+	color:#a8a8aa;
+}
+
+.journeyContent {
+	font-family: "汉仪旗黑-35S","Avenir 45 Book";
+	font-size: 40.32px;
+	color: black;
+}
+
+.journeyCost {
+	font-family: "汉仪旗黑-35S","Avenir 45 Book";
+	font-size: 40.32px;
+	color: black;
+}
+
+.totalCost {
+	font-family: "汉仪旗黑-35S","Avenir 45 Book";
+	font-size: 40.32px;
+	color: black;
+}
+
+.approvalTypeName {
+	font-family: '汉仪旗黑-35S';
+	font-size: 40.32px;
+	color:#a8a8aa;
+}
+
+.approvalContent {
+	
+	font-family: "汉仪旗黑-35S","Avenir 45 Book";
+	font-size: 40.32px;
+	color: black;
+}
+
+#suggestion {
+	font-family: "汉仪旗黑-35S","Avenir 45 Book";
+	font-size: 40.32px;
+	color: black;
+	border: 0px;
+	text-align: right;
+	background-color:transparent;
+	height: 174px;
+	width: 607px;
+}
