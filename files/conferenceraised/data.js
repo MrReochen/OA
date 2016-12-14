@@ -2,10 +2,11 @@
 $(document).ready(function(){
 	"use strict";
 	$("#close").click(function(){
-		window.location.href="home.html";
+		history.back();
 	});
-	$("#finished").click(function(){
-		window.location.href="home.html";
+	var finished=$(".finished");
+	$(finished[0]).click(function(){
+		
 	});
 	$(".future").click(function(){
 		window.location.href="myconference.html";

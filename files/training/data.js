@@ -1,10 +1,10 @@
-/* Sass Document */
-
+// JavaScript Document
 $(document).ready(function(){
 	"use strict";
 	$("#menu").hide();
 	$("#box").hide();
 	$("#switch").hide();
+	$("#date").hide();
 	$("#choose").click(function(){
 		 $("#menu").slideToggle();
 	});
@@ -36,7 +36,7 @@ $(document).ready(function(){
 		window.location.href="addfile.html";
 	});
 	$("#pic3").click(function(){
-		window.location.href="home.html";
+		
 	});
 	$("#pic4").click(function(){
 		window.location.href="home.html";
@@ -55,4 +55,7 @@ $(document).ready(function(){
 		$("#switch").toggle();
 		$("#switch1").toggle();
 	});
+	$("#number").change(function(){
+    	$("#date").show();
+  });
 });

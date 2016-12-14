@@ -17,10 +17,11 @@ $(document).ready(function(){
     });
 	$("#pic").hide();
 	$("#close").click(function(){
-		window.location.href="home.html";
+		history.back();
 	});
 	$("#edit").click(function(){
-		window.location.href="home.html";
+		//添加处理事件
+		history.back();
 	});
 	$("#add").click(function(){
 		$("#pic").show();

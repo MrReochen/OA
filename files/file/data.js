@@ -28,4 +28,8 @@ $(document).ready(function(){
 	ctxr.lineWidth=7;
 	ctxr.strokeStyle="#ba77ff";
 	ctxr.stroke();
+	var todetail=$(".todetail");
+	$(todetail[1]).click(function(){
+		window.location.href="file_detail.html";
+	});
 });

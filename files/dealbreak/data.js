@@ -11,6 +11,6 @@ $(document).ready(function(){
 		$("#switch1").toggle();
 	});
 	$("#close").click(function(){
-		window.history.back();
+		history.back();
 	});
 });

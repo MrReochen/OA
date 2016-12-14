@@ -36,7 +36,7 @@ $(document).ready(function(){
 		window.location.href="addfile.html";
 	});
 	$("#pic3").click(function(){
-		window.location.href="home.html";
+		
 	});
 	$("#pic4").click(function(){
 		window.location.href="home.html";

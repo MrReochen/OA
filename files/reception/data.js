@@ -1,4 +1,5 @@
-// JavaScript Document
+/* Sass Document */
+
 $(document).ready(function(){
 	"use strict";
 	$("#menu").hide();
@@ -35,30 +36,22 @@ $(document).ready(function(){
 		window.location.href="addfile.html";
 	});
 	$("#pic3").click(function(){
-		window.location.href="home.html";
+		
 	});
 	$("#pic4").click(function(){
 		window.location.href="home.html";
 	});
-	$("#add").click(function(){
+	$(".pic").click(function(){
 		$("#box").show();
 	});
 	$("#box").click(function(){
 		$("#box").hide();
 	});
 	$("#switch").click(function(){
-		/*if(document.getElementById("switch").src==="images/contract/switch.png")
-		{
-			document.getElementById("switch").src = "images/contract/switch2.png";	
-		}*/
 		$("#switch").toggle();
 		$("#switch1").toggle();
 	});
 	$("#switch1").click(function(){
-		/*if(document.getElementById("switch").src==="images/contract/switch.png")
-		{
-			document.getElementById("switch").src = "images/contract/switch2.png";	
-		}*/
 		$("#switch").toggle();
 		$("#switch1").toggle();
 	});
