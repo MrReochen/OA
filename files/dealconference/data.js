@@ -1,0 +1,44 @@
+// JavaScript Document
+$(document).ready(function(){
+	"use strict";
+	$("#switch").hide();
+	$("#pic1").hide();
+	$("#switch2").hide();
+	$("#switch4").hide();
+	$("#close").click(function(){
+		window.history.back();
+	});
+	$("#pic").click(function(){
+		$("#pic1").show();
+	});
+	$("#pic1").click(function(){
+		$("#pic1").hide();
+	});
+	$("#logout").click(function(){
+		window.location.href="conferencereport.html";
+	});
+	$("#switch").click(function(){
+		$("#switch").toggle();
+		$("#switch1").toggle();
+	});
+	$("#switch1").click(function(){
+		$("#switch").toggle();
+		$("#switch1").toggle();
+	});
+  	$("#switch2").click(function(){
+		$("#switch2").toggle();
+		$("#switch3").toggle();
+	});
+	$("#switch3").click(function(){
+		$("#switch2").toggle();
+		$("#switch3").toggle();
+	});
+	$("#switch4").click(function(){
+		$("#switch4").toggle();
+		$("#switch5").toggle();
+	});
+	$("#switch5").click(function(){
+		$("#switch4").toggle();
+		$("#switch5").toggle();
+	});
+});
